@@ -1,77 +1,194 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  	<title>navbar_template</title>
-    		<!-- Add Favicon.ico to get icon in Title Bar-->
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<meta name="robots" content="index/follow">
-    	<meta name="description" content=""> 
+<html lang="en">
 
-    	<!--jQuery UI-->
-   	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<head>
 
-      <!--Own CSS-->
-      <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-      
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Edinburgh based Touch Rugby side with mixed, men's, and women's teams. Six Pack play in several leagues throughout the year. Beginners to experienced touch players welcome!">
+    <meta name="author" content="James Walkinshaw">
 
-      <!--Boostrap-->
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <!-- Optional theme -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </head>
+    <title>Six Pack Touch Rugby | Homepage | Scottish Touch | Edinburgh</title>
 
-    <body>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <!-- Define navbar for small screens-->
-        <nav class = "navbar navbar-fixed-top">
-          <div class = "container-fluid">
-            <div class = "nav-wrapper"><!-- = WHOLE navbar div-->
+    <!-- Theme CSS -->
+    <link href="css/sytlesheet.css" rel="stylesheet">
 
-              <div class = "navbar-header"><!-- = Small screen div .navbar-collapse means 3 lines target the navbar collapse div-->
-                       <button type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target = ".navbar-collapse" aria-expanded = "false">
-                            <span class = "icon-bar"></span>
-                            <span class = "icon-bar"></span>
-                            <span class = "icon-bar"></span>
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" id="collapse-button" data-toggle = "collapse" data-target = ".navbar-collapse" aria-expanded = "false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
                         </button>
-              </div><!-- small screen navbar -->
+                <a class="navbar-brand page-scroll" href="#page-top">
+                        <img src="images/site_logo.png" alt="site logo"> 
+                    </a> 
+            </div>
 
-              <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Page 1</a></li>
-                  <li><a href="#">Page 2</a></li>
-                  <li><a href="#">Page 3</a></li>
-                  <li><a href="#">Page 4</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown 1<span class="caret"></span>
-                    </a><!--aria-haspopup is for touch devices, says that it has a dropdown menu (equivalent of dropdown for touch devices)-->
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Action 1</a></li>
-                      <li><a href="#">Action 2</a></li>
-                    </ul>
-                  </li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#find_us">Find Us</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#commitee">Committee</a>
+                    </li>
                 </ul>
-              </div> <!-- End of navbar data -->
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-            </div><!-- End of navbar-wrapper i.e. whole navbar div -->
-          </div><!-- End of container-fluid -->
-        </nav><!-- End of navbar -->
+    <!-- Header -->
+    <header class="img-responsive">
+        <div class="container" id="top">
+            <div class="intro-text">
+                <div class="intro-lead-in">Touch Rugby in the heart of Edinburgh</div>
+                <div class="intro-heading">Six Pack</div>
+                <a href="#services" class="page-scroll btn btn-primary btn-lg">Find Out More</a>
+            </div>
+        </div>
+    </header>
+ 
+    <section id="contact">
+        <div>
+            CONTACT US SIX PACK EMAIL ADDRESS
+            ALTERNATE IF NOT WORKING - ADD STRAIGHT EMAIL LINK TO OPEN OUTLOOK ETC
+        </div>
+    </section>
 
-        <script type="text/javascript"> 
-          /*Change navbar 3 lines into a cross*/
-          $(document).ready(function () {
-          $(".navbar-toggle").on("click", function () {
-          $(this).toggleClass("active");
-            });
-          });
-          /*Change navbar 3 lines into a cross END*/
-        </script>
+    <section id="about">
+        <div>
+            About Six Pack
 
-    </body>
+            About Touch Rugby
+        </div>
+    </section>
+
+     <section id="find_us">
+        <div>
+            FIND US INCLUDING MAPS OF TRAINING & FACEBOOK PAGE LINKS
+        </div>
+    </section>
+
+        <!-- Team Section -->
+    <section id="commitee" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Committee</h2>
+                    <h3 class="section-subheading text-muted">Out team of hard working Six Packers who keep everything ticking over.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Ross Taylor</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Michael Bottom</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Hugh McMichael</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+                  <div class="col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Karen McMichael</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+                  <div class="col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Ailsa Falconer</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+                  <div class="col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Mr X</h4>
+                        <p class="text-muted">Position</p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    
+
+    <div class="test">
+        Test
+    </div>
+    <a href="#0" class="cd-top">Top</a>
+
+
+    <!-- JQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/custom_script.js"></script>
+
+
+
+</body>
+
 </html>
