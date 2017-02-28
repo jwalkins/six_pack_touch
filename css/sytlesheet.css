@@ -206,11 +206,10 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
-  padding-top: 100px;
 }
 header .intro-text {
   padding-top: 150px;
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -229,7 +228,8 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header {
-      padding-top: 200px;
+      padding-top: 150px;
+      padding-bottom: 150px;
   }
   header .intro-text {
     padding-top: 100px;
@@ -260,18 +260,21 @@ header .intro-text .intro-heading {
 /* ==============================================
   4. Commitee
 ================================================*/
+#commitee {
+}
 .team-member {
   text-align: center;
   margin-bottom: 50px;
+  
 }
 .team-member img {
-  margin: 0 auto;
-  border: 7px solid white;
+  margin: 0px auto;
+  border: 2px solid ;
+
 }
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
-  text-transform: none;
 }
 .team-member p {
   margin-top: 0;
