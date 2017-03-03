@@ -26,6 +26,18 @@ body {
 /* ==============================================
   2. Navbar Styles
 ================================================*/
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+}
 
 .navbar-custom {
   background-color: #222222;
@@ -130,17 +142,21 @@ body {
   }
 /*Change 3 lines into Cross End*/
 
-.navbar-header img {
+.navbar-brand img {
   height: 80px;
-  width: 80px;
+  width: auto;
 }
 
 
 /*makes navbar image (ie site logo smaller for small screens*/
 @media (max-width: 766px) {
     .navbar-header img {
-      height: 35px;
-      width: 35px;
+      height: 40px;
+      width: auto;
+    }
+    .navbar-header a {
+      padding-left: 2%;
+      padding-top: 1%;
     }
 }
 /*navbar image size end*/
@@ -148,6 +164,19 @@ body {
 /* navbar align text centre */
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.navbar .navbar-right a img {
+  height: 40px;
+  padding-right: 150px;
+  width: auto;
+}
+
+@media (max-width: 950px) {
+  .navbar .navbar-right a img {
+  padding-right: 100px;
+}
+
 }
 
 /* ==============================================
@@ -472,9 +501,11 @@ section#commitee {
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
+  font-size: 2.2em;
 }
 .team-member p {
   margin-top: 0;
+  font-size: 20px;
 }
 
 /* ==============================================
