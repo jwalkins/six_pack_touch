@@ -1,17 +1,30 @@
 /*-------------------------------------
 [Master Stylesheet]
 
-  1. Navbar
-  2. Back to top arrow
-  3. Header
-  4. About
-  5. Contact Us
-  6. Find Us
-  7. Committee
+  1. Body Styles
+  2. Navbar
+  3. Back to top arrow
+  4. Header
+  5. About
+  6. Contact Us
+  7. Find Us
+  8. Committee
 -------------------------------------/*
 
 /* ==============================================
-  1. Navbar Styles
+  1. Body Styles - P, H1, H2 etc
+================================================*/
+
+body {
+  font-family: 'Josefin Slab', serif;
+}
+
+/* ==============================================
+  1. Body Styles - P, H1, H2 etc - END
+================================================*/
+
+/* ==============================================
+  2. Navbar Styles
 ================================================*/
 
 .navbar-custom {
@@ -22,7 +35,6 @@
 .navbar-custom .navbar-toggle {
   background-color: #0072b9;
   border: none;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
@@ -38,7 +50,6 @@
 }
 
 .navbar-custom .nav li a {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -140,7 +151,11 @@
 }
 
 /* ==============================================
- 2. Back to top arrow
+ 2. Navbar Styles - END
+================================================*/
+
+/* ==============================================
+ 3. Back to top arrow
 ================================================*/
 
 /*Back to top CSS - remember JQuery too*/
@@ -198,11 +213,11 @@
 }
 
 /* ==============================================
-  2. Back to top arrow END
+  3. Back to top arrow END
 ================================================*/
 
 /* ==============================================
-  3. Header
+  4. Header
 ================================================*/
 header {
   background-image: url('../images/cover.jpeg');
@@ -221,16 +236,14 @@ header .intro-text {
   padding-bottom: 150px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
@@ -242,32 +255,92 @@ header .intro-text .intro-heading {
   }
   header .intro-text {
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
   header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 60px;
+    line-height: 60px;
     margin-bottom: 25px;
+    font-weight: 900;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 100px;
   }
 
 }
 
+header p {
+padding-top: 20px;
+font-size: 40px;
+}
+
+header span.glyphicon{
+  font-size: 50px;
+}
+
+header a, 
+header a:hover, 
+header a:active, 
+header a:visited {
+  color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    header p {
+    padding-top: 10px;
+    font-size: 30px;
+  }
+
+  header span.glyphicon{
+    font-size: 30px;
+  }
+}
+
+
+
+.blink {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
 /* ==============================================
-  3. Header END
+  4. Header END
 ================================================*/
 
 /* ==============================================
-  4. About
+  5. About
 ================================================*/
 #about {
   height: 1000px;
@@ -275,11 +348,11 @@ header .intro-text .intro-heading {
   padding: 50px 0;
 }
 /* ==============================================
-  4. About END
+  5. About END
 ================================================*/
 
 /* ==============================================
-  5. Contact Us
+  6. Contact Us
 ================================================*/
 
 section#contact {
@@ -291,7 +364,7 @@ section#contact {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  padding-bottom: 50px;
+  padding: 25px 0;
 }
 section#contact .section-heading,
 section#contact .section-subheading {
@@ -318,27 +391,22 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #222222;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
   color: #222222;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #222222;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #222222;
@@ -347,21 +415,25 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 
-.btn-msg {
+section#contact .btn {
   background-color: #0072b9;
+  color: #FFFFFF;
 }
 
-.btn-msg:hover {
+section#contact .btn:hover {
   background-color: #FFFFFF;
+  color: #000000
 }
 /* ==============================================
-  5. Contact Us END
+  6. Contact Us END
 ================================================*/
 
 /* ==============================================
-  6. Find Us
+  7. Find Us
 ================================================*/
-
+section#find_us {
+  padding: 20px 0;
+}
 #map-wrapper {
     height: 400px;
 }
@@ -378,13 +450,14 @@ section#contact .text-danger {
 }
 
 /* ==============================================
-  6. Find Us END
+  7. Find Us END
 ================================================*/
 
 /* ==============================================
-  7. Commitee
+  8. Commitee
 ================================================*/
-#commitee {
+section#commitee {
+  padding: 25px 0;
 }
 .team-member {
   text-align: center;
@@ -405,10 +478,10 @@ section#contact .text-danger {
 }
 
 /* ==============================================
-  7. Committee END
+  8. Committee END
 ================================================*/
 
-.test {
+/*.test {
   height: 10000px;
   background-color: #0072b9;
-}
+}*/
