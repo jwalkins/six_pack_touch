@@ -9,6 +9,7 @@
   6. Contact Us
   7. Find Us
   8. Committee
+  9. Parallax Scrolling
 -------------------------------------/*
 
 /* ==============================================
@@ -53,6 +54,13 @@ body {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media (max-device-width: 1024px) {
+    header, section#contact, section#commitee {
+        background-attachment: scroll;
+    }
 }
 
 /* ==============================================
@@ -285,9 +293,9 @@ body {
   4. Header
 ================================================*/
 header {
-  background-image: url('../images/cover.jpeg');
+  background-image: url('../images/background_images/1.jpeg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -405,9 +413,9 @@ section#about a:visited {
 ================================================*/
 
 section#contact {
-  background-image: url('../images/cover.jpeg');
+  background-image: url('../images/background_images/2.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -434,32 +442,42 @@ section#contact .form-group input.form-control {
 section#contact .form-group textarea.form-control {
   height: 236px;
 }
+
+section#contact .form-control {
+  border-color: #000000;
+  font-size: 30px;
+}
+
 section#contact .form-control:focus {
   border-color: #000000;
   background-color: #c0c0c0;
-  color: #FFFFFF;
+  color: #000000;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
   text-transform: uppercase;
   font-weight: 700;
   color: #222222;
+  font-size: 15px;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   font-weight: 700;
   color: #222222;
+  font-size: 15px
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   text-transform: uppercase;
   font-weight: 700;
   color: #222222;
+  font-size: 15px
 }
 section#contact :-ms-input-placeholder {
   text-transform: uppercase;
   font-weight: 700;
   color: #222222;
+  font-size: 15px
 }
 section#contact .text-danger {
   color: #e74c3c;
@@ -542,8 +560,18 @@ section#find_us a:visited {
   8. Commitee
 ================================================*/
 section#commitee {
+  background-image: url('../images/background_images/3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   padding: 25px 0;
+  height: 100%;
 }
+
 .team-member {
   text-align: center;
   margin-bottom: 50px;
@@ -566,6 +594,14 @@ section#commitee {
 
 /* ==============================================
   8. Committee END
+================================================*/
+
+/* ==============================================
+  9. Parallax Scrolling
+================================================*/
+
+/* ==============================================
+  9. Parallax Scrolling END
 ================================================*/
 
 /*.test {
