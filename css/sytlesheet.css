@@ -381,12 +381,11 @@ header a:visited {
 /* ==============================================
   5. About
 ================================================*/
-#about {
+section#about {
   height: 100%;
-  background-color: #0072b9;
   padding: 50px 0;
+  background-color: #e8e8e3;
 }
-
 
 section#about span.glyphicon{
   font-size: 50px;
@@ -396,7 +395,7 @@ section#about a,
 section#about a:hover, 
 section#about a:active, 
 section#about a:visited {
-  color: #FFFFFF;
+  color: #0072b9;
 }
 
 @media (max-width: 768px) {
@@ -519,6 +518,7 @@ section#contact a:visited {
 ================================================*/
 section#find_us {
   padding: 20px 0;
+  background-color: #e8e8e3;
 }
 #map-wrapper {
     height: 400px;
