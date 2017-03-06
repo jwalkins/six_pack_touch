@@ -210,14 +210,28 @@ body {
 }
 
 .navbar .navbar-right a img {
-  height: 40px;
+  height: 80px;
   padding-right: 150px;
   width: auto;
 }
 
+.navbar .navbar-right a,
+.navbar .navbar-right a:visited  {
+  color: #FFFFFF;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar .navbar-right a:hover {
+  color: #0072b9;
+  text-decoration: none;
+}
+
+
 @media (max-width: 950px) {
   .navbar .navbar-right a img {
-  padding-right: 100px;
+  padding-right: 70px;
+
 }
 
 }
@@ -411,7 +425,7 @@ section#about a:visited {
 ================================================*/
 
 section#contact {
-  background-image: url('../images/background_images/2.jpg');
+  background-image: url('../images/background_images/1.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -559,7 +573,7 @@ section#find_us a:visited {
   8. Commitee
 ================================================*/
 section#commitee {
-  background-image: url('../images/background_images/3.jpg');
+  background-image: url('../images/background_images/2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
