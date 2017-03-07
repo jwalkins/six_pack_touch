@@ -9,6 +9,7 @@
   6. Contact Us
   7. Find Us
   8. Committee
+  9. Footer
 -------------------------------------/*
 
 /* ==============================================
@@ -61,6 +62,12 @@ body {
         background-attachment: scroll;
     }
 }
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
 
 /* ==============================================
   1. Body Styles - P, H1, H2 etc - END
@@ -365,7 +372,7 @@ font-size: 30px;
 }
 
 header span.glyphicon{
-  font-size: 50px;
+  font-size: 35px;
 }
 
 header a, 
@@ -399,10 +406,16 @@ section#about {
   height: 100%;
   padding: 50px 0;
   background-color: #e8e8e3;
+  overflow: auto;
+}
+
+section#about h2 {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 section#about span.glyphicon{
-  font-size: 50px;
+  font-size: 35px;
 }
 
 section#about a, 
@@ -410,6 +423,11 @@ section#about a:hover,
 section#about a:active, 
 section#about a:visited {
   color: #0072b9;
+}
+
+section#about p {
+  font-size: 25px;
+  padding-bottom: 15px;
 }
 
 @media (max-width: 768px) {
@@ -447,7 +465,7 @@ section#contact .form-group {
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
-  padding: 20px;
+  padding: 10px;
 }
 section#contact .form-group input.form-control {
   height: auto;
@@ -458,7 +476,8 @@ section#contact .form-group textarea.form-control {
 
 section#contact .form-control {
   border-color: #000000;
-  font-size: 30px;
+  font-size: 20px;
+  background-color: #e8e8e3;
 }
 
 section#contact .form-control:focus {
@@ -507,7 +526,7 @@ section#contact .btn:hover {
 }
 
 section#contact span.glyphicon{
-  font-size: 50px;
+  font-size: 35px;
 }
 
 section#contact a, 
@@ -550,7 +569,7 @@ section#find_us {
 }
 
 section#find_us span.glyphicon{
-  font-size: 50px;
+  font-size: 35px;
 }
 
 section#find_us a, 
@@ -565,6 +584,14 @@ section#find_us a:visited {
     font-size: 30px;
   }
 }
+
+/*Inside map text CSS*/
+.info_content p,
+.info_content a, {
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
 
 /* ==============================================
   7. Find Us END
@@ -608,6 +635,33 @@ section#commitee {
 
 /* ==============================================
   8. Committee END
+================================================*/
+
+/* ==============================================
+  9. Footer
+================================================*/
+
+footer {
+  font-size: 25px;
+  padding: 20px 0;
+  background-color: #0072b9;
+}
+
+footer img {
+  height: 30px;
+  width: auto;
+  margin-left: 20px;
+}
+
+footer a, 
+footer a:hover, 
+footer a:active, 
+footer a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+/* ==============================================
+  9. Footer END
 ================================================*/
 
 /*.test {

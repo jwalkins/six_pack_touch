@@ -30,22 +30,28 @@
             var infoWindowContent = [
                 ['<div class="info_content">' +
                 '<h3>Edinburgh Academy New Field - Winter Training</h3>' +
-                '<p>The Edinburgh Academy Playing Fields are floodlit astro pitches situated near Stockbridge on the north side of Edinburgh.he home of our training during the dark Scottish winters.</p>' + '<p>LOCATION: E Fettes Ave, Edinburgh EH4 1DN</p>' + '</div>'],
+                '<p>The Edinburgh Academy Playing Fields are floodlit astro pitches situated near Stockbridge on the north side of Edinburgh.he home of our training during the dark Scottish winters.</p>' + 
+                '<p><a title="Open New Field in Google Maps" href="https://goo.gl/ZKGpaz" target="_blank">LOCATION: E Fettes Ave, Edinburgh EH4 1DN</a></p>' + 
+                '</div>'],
                 ['<div class="info_content">' +
                 '<h3>Peffermill Playing Fields - ETS Touch League</h3>' +
-                '<p>University of Edinburgh Playing Fields. Home of the ETS Touch League played on Monday nights throughout the summer</p>' +'<p>LOCATION: Peffermill Road, Edinburgh EH16 5LL</p>' + 
+                '<p>University of Edinburgh Playing Fields. Home of the ETS Touch League played on Monday nights throughout the summer</p>' +
+                '<p><a title="Open Peffermill Playing Fields in Google Maps" href="https://goo.gl/F4SLQe" target="_blank">LOCATION: Peffermill Road, Edinburgh EH16 5LL</a></p>' + 
                 '</div>'],
                 ['<div class="info_content">' +
                 '<h3>Oriam - Active Touch League</h3>' +
-                '<p>Heriot Watt High Performance Centre. Home of the Active Touch League played on throughout the winter</p>' +'<p>LOCATION: Heriot Watt University, Edinburgh EH14 4AS</p>' + 
+                '<p>Heriot Watt High Performance Centre. Home of the Active Touch League played on throughout the winter</p>' +
+                '<p><a title="Open Oriam Heriot Watt in Google Maps" href="https://goo.gl/yl72l0" target="_blank">LOCATION: Heriot Watt University, Edinburgh EH14 4AS</a></p>' + 
                 '</div>'],
                 ['<div class="info_content">' +
                 '<h3>Inverleith Park - Summer Training</h3>' +
-                '<p>Inverleith Park. Training location throughout the summer.</p>' +'<p>LOCATION: Arboretum Rd, Edinburgh EH3 5NZ</p>' + 
+                '<p>Inverleith Park. Training location throughout the summer.</p>' +
+                '<p><a title="Open Inverleith Park in Google Maps" href="https://goo.gl/rgBPlh" target="_blank">LOCATION: Arboretum Rd, Edinburgh EH3 5NZ</a></p>' +
                 '</div>'],
                  ['<div class="info_content">' +
                 '<h3>Edinburgh Academicals Rugby Club - In2Touch League</h3>' +
-                '<p>Edinburgh Accies Rugby Club. Home of the In2Touch Wednesday evening league that runs throughout summer.</p>' +'<p>LOCATION: N Park Terrace, Edinburgh EH4 1HQ</p>' + '<a href="https://goo.gl/9pRrBG" target="_blank">Open in Google Maps</a>' +
+                '<p>Edinburgh Accies Rugby Club. Home of the In2Touch Wednesday evening league that runs throughout summer.</p>' +
+                '<p><a title="Open Edinburgh Academicals in Google Maps" href="https://goo.gl/bHFLQx" target="_blank">LOCATION: N Park Terrace, Edinburgh EH4 1HQ</a></p>' + 
                 '</div>'],
                 //ADD REST OF LOCATION DESCRIPTIONS//
             ];
