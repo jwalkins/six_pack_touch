@@ -6,10 +6,13 @@
   3. Back to top arrow
   4. Header
   5. About
-  6. Contact Us
-  7. Find Us
-  8. Committee
-  9. Footer
+  6. Touch Worldwide
+  7. Timeline
+  8. Contact Us
+  9. Find Us
+  10. Committee
+  11. Gallery
+  12. Footer
 -------------------------------------/*
 
 /* ==============================================
@@ -57,17 +60,52 @@ body {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-@media (max-device-width: 1024px) {
-    header, section#contact, section#commitee {
-        background-attachment: scroll;
-    }
-}
 
 h2 {
   text-transform: uppercase;
   font-weight: 900;
 }
 
+h3 {
+  font-family: 'Josefin Sans', serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Josefin Sans', serif;
+}
+
+header span.glyphicon,
+section#about span.glyphicon,
+section#contact span.glyphicon,
+section#find_us span.glyphicon,
+section#commitee span.glyphicon,
+section#six-pack-timeline,
+section#touch-worldwide {
+  font-size: 35px;
+}
+
+@media (max-width: 768px) {
+  header span.glyphicon,
+  section#about span.glyphicon,
+  section#contact span.glyphicon,
+  section#find_us span.glyphicon,
+  section#commitee span.glyphicon{
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
+
+hr {
+  border-color: #0072b9;
+}
 
 /* ==============================================
   1. Body Styles - P, H1, H2 etc - END
@@ -86,7 +124,6 @@ h2 {
   .navbar .navbar-collapse {
     text-align: center;
   }
-
 }
 
 .navbar-custom {
@@ -371,9 +408,6 @@ padding-top: 20px;
 font-size: 30px;
 }
 
-header span.glyphicon{
-  font-size: 35px;
-}
 
 header a, 
 header a:hover, 
@@ -387,13 +421,7 @@ header a:visited {
     padding-top: 10px;
     font-size: 30px;
   }
-
-  header span.glyphicon{
-    font-size: 30px;
-  }
 }
-
-
 
 /* ==============================================
   4. Header END
@@ -402,9 +430,9 @@ header a:visited {
 /* ==============================================
   5. About
 ================================================*/
+
 section#about {
-  height: 100%;
-  padding: 50px 0;
+  padding: 25px 0;
   background-color: #e8e8e3;
   overflow: auto;
 }
@@ -414,33 +442,191 @@ section#about h2 {
   padding-bottom: 20px;
 }
 
-section#about span.glyphicon{
-  font-size: 35px;
+section#about h4 {
+  text-decoration: underline;
 }
 
 section#about a, 
 section#about a:hover, 
 section#about a:active, 
 section#about a:visited {
-  color: #0072b9;
+  color: #000000;
 }
 
-section#about p {
-  font-size: 25px;
-  padding-bottom: 15px;
-}
-
-@media (max-width: 768px) {
-  section#about span.glyphicon{
-    font-size: 30px;
-  }
-}
 /* ==============================================
   5. About END
 ================================================*/
 
 /* ==============================================
-  6. Contact Us
+  6. Touch Worldwide
+================================================*/
+section#touch-worldwide {
+  background-image: url('../images/background_images/1.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+section#touch-worldwide img {
+  height: auto;
+  width: 100%;
+}
+
+/* ==============================================
+  6. Touch Worldwide END
+================================================*/
+
+/* ==============================================
+  7. Six Pack Timeline
+================================================*/
+
+section#six-pack-timeline {
+  padding: 25px 0;
+  background-color: #e8e8e3;
+  overflow: auto;
+}
+
+section#six-pack-timeline h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+section#six-pack-timeline h4 {
+  text-decoration: underline;
+}
+
+section#six-pack-timeline a, 
+section#six-pack-timeline a:hover, 
+section#six-pack-timeline a:active, 
+section#six-pack-timeline a:visited {
+  color: #000000;
+}
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #0072b9;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #0072b9;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+/* ==============================================
+  7. Six Pack Timeline END
+================================================*/
+
+/* ==============================================
+  8. Contact Us
 ================================================*/
 
 section#contact {
@@ -525,10 +711,6 @@ section#contact .btn:hover {
   color: #000000
 }
 
-section#contact span.glyphicon{
-  font-size: 35px;
-}
-
 section#contact a, 
 section#contact a:hover, 
 section#contact a:active, 
@@ -536,18 +718,12 @@ section#contact a:visited {
   color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
-  section#contact span.glyphicon{
-    font-size: 30px;
-  }
-}
-
 /* ==============================================
-  6. Contact Us END
+  8. Contact Us END
 ================================================*/
 
 /* ==============================================
-  7. Find Us
+  9. Find Us
 ================================================*/
 section#find_us {
   padding: 20px 0;
@@ -568,21 +744,11 @@ section#find_us {
   }
 }
 
-section#find_us span.glyphicon{
-  font-size: 35px;
-}
-
 section#find_us a, 
 section#find_us a:hover, 
 section#find_us a:active, 
 section#find_us a:visited {
   color: #000000;
-}
-
-@media (max-width: 768px) {
-  section#find_us span.glyphicon{
-    font-size: 30px;
-  }
 }
 
 /*Inside map text CSS*/
@@ -592,13 +758,12 @@ section#find_us a:visited {
   padding-bottom: 5px;
 }
 
-
 /* ==============================================
-  7. Find Us END
+  9. Find Us END
 ================================================*/
 
 /* ==============================================
-  8. Commitee
+  10. Commitee
 ================================================*/
 section#commitee {
   background-image: url('../images/background_images/2.jpg');
@@ -634,11 +799,23 @@ section#commitee {
 }
 
 /* ==============================================
-  8. Committee END
+  10. Committee END
 ================================================*/
 
 /* ==============================================
-  9. Footer
+  11. Gallery
+================================================*/
+
+section#gallery img {
+  padding: 5px;
+}
+
+/* ==============================================
+  11. Gallery END
+================================================*/
+
+/* ==============================================
+  12. Footer
 ================================================*/
 
 footer {
@@ -659,12 +836,8 @@ footer a:active,
 footer a:visited {
   color: #000000;
   text-decoration: none;
+  font-size: 25px;
 }
 /* ==============================================
-  9. Footer END
+  12. Footer END
 ================================================*/
-
-/*.test {
-  height: 10000px;
-  background-color: #0072b9;
-}*/
