@@ -13,7 +13,6 @@
   10. Committee
   11. Gallery
   12. Footer
-  13. Progress Bar Fill
 -------------------------------------/*
 
 /* ==============================================
@@ -67,7 +66,7 @@ h2 {
   font-weight: 900;
 }
 
-h3 {
+h3, h4, table {
   font-family: 'Josefin Sans', serif;
 }
 
@@ -443,8 +442,8 @@ section#about h2 {
   padding-bottom: 20px;
 }
 
-section#about h4 {
-  text-decoration: underline;
+section#about p {
+  font-size: 18px;
 }
 
 section#about a, 
@@ -775,6 +774,10 @@ section#find_us a:visited {
   padding-bottom: 5px;
 }
 
+section#find_us table {
+  font-weight: lighter;
+}
+
 /* ==============================================
   9. Find Us END
 ================================================*/
@@ -827,6 +830,10 @@ section#gallery img {
   padding: 5px;
 }
 
+section#gallery {
+    background-color: #e8e8e3;
+}
+
 /* ==============================================
   11. Gallery END
 ================================================*/
@@ -838,7 +845,11 @@ section#gallery img {
 footer {
   font-size: 25px;
   padding: 20px 0;
-  background-color: #0072b9;
+  background: #0072b9; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e8e8e3, #0072b9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e8e8e3, #0072b9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e8e8e3, #0072b9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e8e8e3, #0072b9); /* Standard syntax */
 }
 
 footer img {
@@ -853,7 +864,7 @@ footer a:active,
 footer a:visited {
   color: #000000;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
 }
 /* ==============================================
   12. Footer END
