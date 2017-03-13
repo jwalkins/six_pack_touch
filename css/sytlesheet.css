@@ -354,7 +354,7 @@ header {
   background-image: url('../images/background_images/1.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -423,6 +423,14 @@ header a:visited {
   }
 }
 
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    header{
+        background-attachment: scroll;
+        background-size: auto, 100%;
+    }
+}
+
 /* ==============================================
   4. Header END
 ================================================*/
@@ -451,7 +459,9 @@ section#about a:hover,
 section#about a:active, 
 section#about a:visited {
   color: #000000;
+  font-weight: bold; 
 }
+
 
 /* ==============================================
   5. About END
@@ -464,7 +474,7 @@ section#touch-worldwide {
   background-image: url('../images/background_images/1.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -479,20 +489,8 @@ section#touch-worldwide img {
 }
 
 section#touch-worldwide p {
-  font-size: 20px;
+  font-size: 18px;
 }
-@media (min-width: 1500px) {
-    section#touch-worldwide p {
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 1250px) and (max-width: 1500px) {
-    section#touch-worldwide p {
-        font-size: 20px;
-    }
-}
-
 
 /* ==============================================
   6. Touch Worldwide END
@@ -649,7 +647,7 @@ section#contact {
   background-image: url('../images/background_images/1.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -789,7 +787,7 @@ section#commitee {
   background-image: url('../images/background_images/2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
