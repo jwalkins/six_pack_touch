@@ -354,6 +354,12 @@ hr {
 /* ==============================================
   4. Header
 ================================================*/
+
+.intro {
+  background: rgba(34, 34, 34, 0.7);
+  padding: 10px;
+}
+
 header {
   background-image: url('../images/background_images/1.jpeg');
   background-repeat: no-repeat;
