@@ -356,8 +356,8 @@ hr {
 ================================================*/
 
 .intro {
-  background: rgba(34, 34, 34, 0.7);
-  padding: 10px;
+  background: rgba(34, 34, 34, 0.6);
+  padding: 10px 10px 7px 10px;
 }
 
 header {
@@ -485,7 +485,7 @@ section#about a.glyphicon {
   6. Touch Worldwide
 ================================================*/
 section#touch-worldwide {
-  background-image: url('../images/background_images/1.jpeg');
+  background-image: url('../images/background_images/2.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -494,7 +494,7 @@ section#touch-worldwide {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: #000000;
 }
 
 section#touch-worldwide img {
@@ -662,7 +662,7 @@ section#six-pack-timeline span.glyphicon {
 ================================================*/
 
 section#contact {
-  background-image: url('../images/background_images/1.jpeg');
+  background-image: url('../images/background_images/2.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -675,7 +675,7 @@ section#contact {
 }
 section#contact .section-heading,
 section#contact .section-subheading {
-  color: white;
+  color: #000000;
   padding-bottom: 20px;
 }
 section#contact .form-group {
@@ -814,7 +814,7 @@ section#find_us span.glyphicon {
 }
 
 section#commitee {
-  background-image: url('../images/background_images/2.jpg');
+  background-image: url('../images/background_images/3.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
