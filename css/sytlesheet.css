@@ -395,6 +395,7 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+
 @media (min-width: 768px) {
   header {
       padding-top: 150px;
@@ -451,6 +452,14 @@ header span.glyphicon {
     }
 }
 
+@media (max-width: 768px) {
+    .intro {
+    padding: 10px 10px 7px 10px;
+    line-height: 50px;
+  }
+
+
+}
 /* ==============================================
   4. Header END
 ================================================*/
