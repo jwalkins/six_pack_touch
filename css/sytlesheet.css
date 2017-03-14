@@ -80,8 +80,8 @@ section#about span.glyphicon,
 section#contact span.glyphicon,
 section#find_us span.glyphicon,
 section#commitee span.glyphicon,
-section#six-pack-timeline,
-section#touch-worldwide {
+section#six-pack-timeline span.glyphicon,
+section#touch-worldwide span.glyphicon {
   font-size: 35px;
 }
 
@@ -90,7 +90,9 @@ section#touch-worldwide {
   section#about span.glyphicon,
   section#contact span.glyphicon,
   section#find_us span.glyphicon,
-  section#commitee span.glyphicon{
+  section#commitee span.glyphicon,
+  section#six-pack-timeline span.glyphicon,
+  section#touch-worldwide span.glyphicon {
     font-size: 30px;
   }
 
@@ -114,6 +116,11 @@ hr {
 /* ==============================================
   2. Navbar Styles
 ================================================*/
+.fa.fa-facebook-square {
+  font-size: 4rem;
+  color: #0072b9;
+}
+
 @media (min-width: 768px) {
   .navbar .navbar-nav {
     display: inline-block;
@@ -253,7 +260,7 @@ hr {
   text-align: center;
 }
 
-.navbar .navbar-right a img {
+.navbar .navbar-right a {
   height: 50px;
   padding-right: 150px;
   width: auto;
@@ -273,12 +280,9 @@ hr {
 
 
 @media (max-width: 950px) {
-  .navbar .navbar-right a img {
+  .navbar .navbar-right a {
   padding-right: 70px;
-
-
-}
-
+  }
 }
 
 /* ==============================================
@@ -462,6 +466,10 @@ section#about a:visited {
   font-weight: bold; 
 }
 
+section#about a.glyphicon {
+  text-decoration: none;
+}
+
 
 /* ==============================================
   5. About END
@@ -635,6 +643,10 @@ section#six-pack-timeline a:visited {
   margin-top: 5px;
 }
 
+section#six-pack-timeline span.glyphicon {
+  color: #0072b9;
+}
+
 /* ==============================================
   7. Six Pack Timeline END
 ================================================*/
@@ -775,6 +787,11 @@ section#find_us a:visited {
 section#find_us table {
   font-weight: lighter;
 }
+
+section#find_us span.glyphicon {
+  color: #0072b9;
+}
+
 
 /* ==============================================
   9. Find Us END
