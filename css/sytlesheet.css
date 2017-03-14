@@ -433,6 +433,10 @@ header a:visited {
   }
 }
 
+header span.glyphicon {
+  color: #0072b9;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     header{
