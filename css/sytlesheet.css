@@ -205,6 +205,12 @@ hr {
   }
 }
 
+@media (min-width: 1085px) {
+.navbar-custom .nav li a {
+  font-size: 20px;
+  }
+}
+
 /*Change 3 lines into Cross*/
 /*Spaces icon bars out*/
 .icon-bar:nth-of-type(2) {
