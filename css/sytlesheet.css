@@ -13,7 +13,7 @@
   10. Committee
   11. Gallery
   12. Footer
--------------------------------------/*
+-------------------------------------*/
 
 /* ==============================================
   1. Body Styles - P, H1, H2 etc
@@ -800,6 +800,13 @@ section#find_us span.glyphicon {
 /* ==============================================
   10. Commitee
 ================================================*/
+
+@media (min-width: 1200px) {
+  .team-member p {
+    font-size: 30px !important;
+  }
+}
+
 section#commitee {
   background-image: url('../images/background_images/2.jpg');
   background-repeat: no-repeat;
@@ -830,8 +837,12 @@ section#commitee {
 }
 .team-member p {
   margin-top: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
+
+
+
+
 
 /* ==============================================
   10. Committee END
