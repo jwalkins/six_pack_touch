@@ -121,50 +121,6 @@ hr {
   color: #0072b9;
 }
 
-.fa.fa-facebook-square:hover {
-  font-size: 4rem;
-  color: #3B5998;
-}
-
-.connect a:hover {
-  color: #FFFFFF !important;
-}
-
-.fa.fa-instagram {
-  font-size: 4rem;
-  color: #8a3ab9; /* For browsers that do not support gradients */    
-  background: -webkit-linear-gradient(right top, #8a3ab9, #fccc63); /* For Safari 5.1 to 6.0 */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: -o-linear-gradient(bottom left, #8a3ab9, #fccc63); /* For Opera 11.1 to 12.0 */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: -moz-linear-gradient(bottom left, #8a3ab9, #fccc63); /* For Firefox 3.6 to 15 */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(to bottom left, #8a3ab9, #fccc63); /* Standard syntax (must be last) */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.fa.fa-instagram:hover {
-  font-size: 4rem;
-  color: #fccc63; /* For browsers that do not support gradients */    
-  background: -webkit-linear-gradient(right top, #fccc63, #8a3ab9); /* For Safari 5.1 to 6.0 */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: -o-linear-gradient(bottom left, #fccc63, #8a3ab9); /* For Opera 11.1 to 12.0 */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: -moz-linear-gradient(bottom left, #fccc63, #8a3ab9); /* For Firefox 3.6 to 15 */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(to bottom left, #fccc63, #8a3ab9); /* Standard syntax (must be last) */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-
 @media (min-width: 768px) {
   .navbar .navbar-nav {
     display: inline-block;
@@ -310,14 +266,10 @@ hr {
   text-align: center;
 }
 
-.navbar .navbar-right .fa.fa-instagram {
+.navbar .navbar-right a {
   height: 50px;
-  padding-right: 75px;
+  padding-right: 150px;
   width: auto;
-}
-
-.navbar .navbar-right .fa.fa-facebook-square {
-  padding-right: 10px;
 }
 
 .navbar .navbar-right a,
@@ -334,12 +286,8 @@ hr {
 
 
 @media (max-width: 950px) {
-  .navbar .navbar-right .fa.fa-instagram {
-  padding-right: 30px;
-  }
-
-  .navbar .navbar-right .fa.fa-facebook-square {
-  padding-right: 10px;
+  .navbar .navbar-right a {
+  padding-right: 70px;
   }
 }
 
