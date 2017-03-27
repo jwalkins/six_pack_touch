@@ -116,9 +116,33 @@ hr {
 /* ==============================================
   2. Navbar Styles
 ================================================*/
-.fa.fa-facebook-square {
+.fa.fa-facebook-square,
+.fa.fa-instagram {
   font-size: 4rem;
-  color: #0072b9;
+  color: #FFFFFF;
+}
+
+.fa.fa-facebook-square {
+  padding-right: 10px;
+}
+
+.fa.fa-instagram {
+  padding-right: 50px;
+}
+
+.fa.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #9937BB;
+}
+
+@media (max-width: 950px) {
+  .fa.fa-instagram,
+  .fa.fa-facebook-square {
+  padding-right: 20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -264,31 +288,6 @@ hr {
 /* navbar align text centre */
 .navbar .navbar-collapse {
   text-align: center;
-}
-
-.navbar .navbar-right a {
-  height: 50px;
-  padding-right: 150px;
-  width: auto;
-}
-
-.navbar .navbar-right a,
-.navbar .navbar-right a:visited  {
-  color: #FFFFFF;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.navbar .navbar-right a:hover {
-  color: #0072b9;
-  text-decoration: none;
-}
-
-
-@media (max-width: 950px) {
-  .navbar .navbar-right a {
-  padding-right: 70px;
-  }
 }
 
 /* ==============================================
@@ -883,6 +882,34 @@ section#gallery img {
 
 section#gallery {
     background-color: #e8e8e3;
+}
+
+/* ==============================================
+  11. Gallery END
+================================================*/
+
+/* ==============================================
+  11. Gallery
+================================================*/
+
+section#instagram img {
+  padding: 5px;
+}
+
+section#instagram {
+  background-color: #e8e8e3;
+}
+
+section#instagram .lightwidget-widget{
+  width: 100%; 
+  border: 0; 
+  overflow: hidden;
+}
+
+section#instagram .section-heading img {
+  height: 50px;
+  width: auto;
+  padding-left: 25px;
 }
 
 /* ==============================================
