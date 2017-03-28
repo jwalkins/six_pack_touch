@@ -81,7 +81,8 @@ section#contact span.glyphicon,
 section#find_us span.glyphicon,
 section#commitee span.glyphicon,
 section#six-pack-timeline span.glyphicon,
-section#touch-worldwide span.glyphicon {
+section#touch-worldwide span.glyphicon,
+section#instagram span.glyphicon {
   font-size: 35px;
 }
 
@@ -92,7 +93,8 @@ section#touch-worldwide span.glyphicon {
   section#find_us span.glyphicon,
   section#commitee span.glyphicon,
   section#six-pack-timeline span.glyphicon,
-  section#touch-worldwide span.glyphicon {
+  section#touch-worldwide span.glyphicon,
+  section#instagram span.glyphicon {
     font-size: 30px;
   }
 
@@ -229,9 +231,12 @@ hr {
   }
 }
 
-@media (min-width: 1085px) {
+@media (min-width: 1200px) {
 .navbar-custom .nav li a {
   font-size: 20px;
+  }
+.fa.fa-instagram {
+  padding-right: 150px;
   }
 }
 
@@ -767,6 +772,11 @@ section#contact a:active,
 section#contact a:visited {
   color: #FFFFFF;
 }
+
+section#contact span.glyphicon {
+  color: #0072b9;
+}
+
 
 /* ==============================================
   8. Contact Us END
