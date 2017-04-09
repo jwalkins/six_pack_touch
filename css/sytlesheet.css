@@ -76,6 +76,7 @@ p {
 }
 
 header span.glyphicon,
+section#carousel-news span.glyphicon,
 section#about span.glyphicon,
 section#contact span.glyphicon,
 section#find_us span.glyphicon,
@@ -88,6 +89,7 @@ section#instagram span.glyphicon {
 
 @media (max-width: 768px) {
   header span.glyphicon,
+  section#carousel-news span.glyphicon,
   section#about span.glyphicon,
   section#contact span.glyphicon,
   section#find_us span.glyphicon,
@@ -467,6 +469,67 @@ header span.glyphicon {
 /* ==============================================
   4. Header END
 ================================================*/
+
+/* ==============================================
+  4.2 Carousel Header
+================================================*/
+section#carousel-news .container-fluid {
+  padding: 0;
+}
+
+section#carousel-news {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.carousel-inner > .item,
+.carousel-inner > .item {
+      width: 100vw;
+      height: 100vh;
+      margin: auto;
+  }
+
+  .item {
+    .transition(2.0s ease-in-out left);
+}
+
+section#carousel-news #news-item-1 {
+  background-image: url('../images/carousel/1.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+section#carousel-news #news-item-2 {
+  background-image: url('../images/carousel/2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+section#carousel-news .carousel-caption {
+    background: rgba(34, 34, 34, 0.8);
+    margin-bottom: 40vh;
+
+}
+
+section#carousel-news span.glyphicon.glyphicon-menu-down {
+  display:block;
+  text-align: center;
+}
 
 /* ==============================================
   5. About
