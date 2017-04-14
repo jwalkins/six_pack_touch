@@ -76,6 +76,7 @@ p {
 }
 
 header span.glyphicon,
+section#sts span.glyphicon,
 section#about span.glyphicon,
 section#contact span.glyphicon,
 section#find_us span.glyphicon,
@@ -88,6 +89,7 @@ section#instagram span.glyphicon {
 
 @media (max-width: 768px) {
   header span.glyphicon,
+  section#sts span.glyphicon,
   section#about span.glyphicon,
   section#contact span.glyphicon,
   section#find_us span.glyphicon,
@@ -466,6 +468,33 @@ header span.glyphicon {
 }
 /* ==============================================
   4. Header END
+================================================*/
+
+/* ==============================================
+  4. Edinburgh STS
+================================================*/
+
+section#sts {
+  background-color: #e8e8e3;
+  overflow: auto;
+}
+
+section#sts .container-fluid {
+  padding: 0;
+}
+
+section#sts h2 {
+  text-align: center;
+}
+
+section#sts p {
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* ==============================================
+  4. Edinburgh STS END
 ================================================*/
 
 /* ==============================================
