@@ -112,14 +112,26 @@
       Fixtures & Results Section
     ================================================ -->
     <section id="fixtures-results">
-      <div class="container-fluid">
-        <h2>Edinburgh Touch Superleague Fixtures &amp; Results 2017</h2>
+      <div class="container">
+        <h2>Six Pack Touch Fixtures &amp; Results 2017</h2>
         <!-- TO BE WORKED ON TO COLLAPSE ALL ETS MENS ETC TEAMS ONE BY ONE -->
-        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#ets-collapse">Reveal ETS Fixtures &amp; Results</button>
+        <div class="col-sm-6">
+            <button type="button" class="ets-btn btn btn-info" data-toggle="collapse" data-target="#ets-collapse">
+                Show Edinburgh Touch Superleague Fixtures &amp; Results 2017
+            </button>
+        </div>
         <div id="ets-collapse" class="collapse">
           <?php
             include 'webscrape/webscrape.php'
           ?>
+        </div>
+        <div class="col-sm-6">
+            <button type="button" class="in2touch-btn btn btn-info" data-toggle="collapse" data-target="#in2touch-collapse">
+                Show In2Touch Fixtures &amp; Results 2017
+            </button>
+        </div>
+        <div id="in2touch-collapse" class="collapse">
+
         </div>
       </div>
     </section>
@@ -634,7 +646,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -672,6 +684,9 @@
 
     <!-- LightWidget WIDGET -->
     <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+
+    <!-- Change ets-btn text on click -->
+    <script src="js/button-toggle.js"></script>
 
 </body>
 
