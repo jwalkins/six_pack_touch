@@ -109,6 +109,22 @@
     </header>
 
     <!-- ==============================================
+      Fixtures & Results Section
+    ================================================ -->
+    <section id="fixtures-results">
+      <div class="container-fluid">
+        <h2>Edinburgh Touch Superleague Fixtures &amp; Results 2017</h2>
+        <!-- TO BE WORKED ON TO COLLAPSE ALL ETS MENS ETC TEAMS ONE BY ONE -->
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#ets-collapse">Reveal ETS Fixtures &amp; Results</button>
+        <div id="ets-collapse" class="collapse">
+          <?php
+            include 'webscrape/webscrape.php'
+          ?>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
       Edinburgh STS Section
     ================================================ -->
     <section id="sts">

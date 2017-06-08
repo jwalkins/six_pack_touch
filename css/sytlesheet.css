@@ -471,6 +471,26 @@ header span.glyphicon {
 ================================================*/
 
 /* ==============================================
+  4. Fixtures & Results
+================================================*/
+section#fixtures-results {
+  background-color: #e8e8e3;
+  overflow: auto;
+}
+
+section#fixtures-results .container-fluid {
+  padding: 0;
+}
+
+section#fixtures-results h2 {
+  text-align: center;
+}
+
+/* ==============================================
+  4. Fixtures & Results END
+================================================*/
+
+/* ==============================================
   4. Edinburgh STS
 ================================================*/
 
