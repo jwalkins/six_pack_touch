@@ -41,19 +41,19 @@ body {
     animation-iteration-count: infinite;
 }
 
-@-moz-keyframes blinker {  
+@-moz-keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
 
-@-webkit-keyframes blinker {  
+@-webkit-keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
 }
 
-@keyframes blinker {  
+@keyframes blinker {
     0% { opacity: 1.0; }
     50% { opacity: 0.0; }
     100% { opacity: 1.0; }
@@ -432,9 +432,9 @@ font-size: 30px;
 }
 
 
-header a, 
-header a:hover, 
-header a:active, 
+header a,
+header a:hover,
+header a:active,
 header a:visited {
   color: #FFFFFF;
 }
@@ -471,6 +471,26 @@ header span.glyphicon {
 ================================================*/
 
 /* ==============================================
+  4. Fixtures & Results
+================================================*/
+section#fixtures-results {
+  background-color: #e8e8e3;
+  overflow: auto;
+}
+
+section#fixtures-results .container-fluid {
+  padding: 0;
+}
+
+section#fixtures-results h2 {
+  text-align: center;
+}
+
+/* ==============================================
+  4. Fixtures & Results END
+================================================*/
+
+/* ==============================================
   4. Edinburgh STS
 ================================================*/
 
@@ -491,7 +511,6 @@ section#sts p {
   font-size: 18px;
   text-align: center;
 }
-
 
 /* ==============================================
   4. Edinburgh STS END
@@ -516,12 +535,12 @@ section#about p {
   font-size: 18px;
 }
 
-section#about a, 
-section#about a:hover, 
-section#about a:active, 
+section#about a,
+section#about a:hover,
+section#about a:active,
 section#about a:visited {
   color: #000000;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 section#about a.glyphicon {
@@ -581,9 +600,9 @@ section#six-pack-timeline h4 {
   text-decoration: underline;
 }
 
-section#six-pack-timeline a, 
-section#six-pack-timeline a:hover, 
-section#six-pack-timeline a:active, 
+section#six-pack-timeline a,
+section#six-pack-timeline a:hover,
+section#six-pack-timeline a:active,
 section#six-pack-timeline a:visited {
   color: #000000;
 }
@@ -795,9 +814,9 @@ section#contact .btn:hover {
   color: #000000
 }
 
-section#contact a, 
-section#contact a:hover, 
-section#contact a:active, 
+section#contact a,
+section#contact a:hover,
+section#contact a:active,
 section#contact a:visited {
   color: #FFFFFF;
 }
@@ -833,9 +852,9 @@ section#find_us {
   }
 }
 
-section#find_us a, 
-section#find_us a:hover, 
-section#find_us a:active, 
+section#find_us a,
+section#find_us a:hover,
+section#find_us a:active,
 section#find_us a:visited {
   color: #000000;
 }
@@ -886,7 +905,7 @@ section#commitee {
 .team-member {
   text-align: center;
   margin-bottom: 50px;
-  
+
 }
 .team-member img {
   margin: 0px auto;
@@ -940,8 +959,8 @@ section#instagram {
 }
 
 section#instagram .lightwidget-widget{
-  width: 100%; 
-  border: 0; 
+  width: 100%;
+  border: 0;
   overflow: hidden;
 }
 
@@ -975,9 +994,9 @@ footer img {
   margin-left: 20px;
 }
 
-footer a, 
-footer a:hover, 
-footer a:active, 
+footer a,
+footer a:hover,
+footer a:active,
 footer a:visited {
   color: #000000;
   text-decoration: none;

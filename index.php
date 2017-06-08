@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
-    <!-- Slick Carousel Images CDN 
+    <!-- Slick Carousel Images CDN
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">-->
 
@@ -71,20 +71,20 @@
                         <a class="page-scroll" title="Follow us on Instagram" href="#instagram">Instagram</a>
                     </li>
                     <li>
-                        <a class="page-scroll" title="Come and join us - find our training and playing areas" href="#find_us">Find Us</a>
+                        <a class="page-scroll" title="Come and join us - find our training and playing areas" href="#find_us">Play Touch</a>
                     </li>
                     <li>
                         <a class="page-scroll" title="Contact Six Pack" href="#contact">Contact</a>
                     </li>
                     <li>
                         <a class="page-scroll visible-lg visible-md" title="Six Pack Timeline" href="#six-pack-timeline">Timeline</a>
-                    </li>               
+                    </li>
                     <li>
                         <a class="page-scroll" title="Our Six Pack committee members" href="#commitee">Committee</a>
                     </li>
                     <!--<li>
                         <a class="page-scroll" title="Some actions shots" href="#gallery">Gallery</a>
-                    </li>-->  
+                    </li>-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -101,7 +101,7 @@
                 <div class="intro-lead-in"><span class="intro">Touch Rugby in the heart of Edinburgh</span></div>
                 <div class="intro-heading"><span class="intro">Six Pack</span></div>
                 <!--<a href="#services" class="page-scroll btn btn-primary btn-lg">Find Out More</a>-->
-                <div><p><span class="intro">Six Pack to host the Edinburgh STS - Scroll to find out more and submit a team</span></p>
+                <div><p><span class="intro">Scroll to join us and find out more.</span></p>
                 <a class="page-scroll" href="#sts" title="Down to About Six Pack Touch"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                 </div>
             </div>
@@ -109,28 +109,76 @@
     </header>
 
     <!-- ==============================================
+      Fixtures & Results Section
+    ================================================ -->
+    <section id="fixtures-results">
+      <div class="container-fluid">
+        <h2>Edinburgh Touch Superleague Fixtures &amp; Results 2017</h2>
+        <!-- TO BE WORKED ON TO COLLAPSE ALL ETS MENS ETC TEAMS ONE BY ONE -->
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#ets-collapse">Reveal ETS Fixtures &amp; Results</button>
+        <div id="ets-collapse" class="collapse">
+          <?php
+            include 'webscrape/webscrape.php'
+          ?>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
       Edinburgh STS Section
     ================================================ -->
     <section id="sts">
+      <br>
         <div class="container-fluid">
-            <div class="col-md-4">
+            <div class="col-md-6 text-center">
                 <div>
-                    <h2>Six Pack Touch to host Edinburgh STS</h1>
-                    <p>Six Pack are proud to annouce that we will be hosting the first leg of the 2017 Scottish Touch Series in Edinburgh!
+                    <h2>Six Pack Roosters win Stirling STS</h1>
+                    <p>A huge effort from the Six Pack Roosters saw them emerge victorious at this year's Stirling STS.
+                      <br>
+                      A rain soaked day did not prevent an enthralling tournament,
+                      Six Pack Roosters went unbeaten through their group and progressed to the Cup finals,
+                       where they beat Sparks 4 - 2 in the quarter final, Galaxy Scotland 4 - 1 in the semi final
+                       and lastly, beating Blue Jays 5 - 3 to lift the Cup.
                     </p>
                     <br>
-                    <p>Tap off is on the 13th of May 2017, keep your eyes peeled for more infomation about the day on our website or through our <a target="_blank" title="Like Six Pack Touch on Facebook" alt="Six Pack Touch on Facebook" href="https://www.facebook.com/sixpacktouch/">facebook page</a>.
+                    <p>2 wins from 4 allowed the Six Pack Sharks to enter the Shield,
+                      where they battled their way through to the Shield final until finally
+                      being edged out 5 - 3 against a competitive Buffalos side.
                     </p>
                     <br>
-                    <p>For entry packs, please use our <a class="page-scroll" href="#contact" title="Down to Contact Six Pack Touch">contact form</a> or you can <a href="mailto:sixpacktouch@gmail.com?Subject=STS%20Edinburgh%202017" target="_top">email us directly</a>.
+                    <p>
+                      The Cup win puts Roosters at the top of the STS table, with 2 tournaments to play.
+                      <br>
+                      The penultimate STS will be held in Aberdeen on 22nd July 2017,
+                      with Glasgow wrapping up the series on 26th August 2017.
                     </p>
                     <br>
-                    <p>Please note, just now we can only accept one entry per team. If you are interested in entering a second team, please do let us know and we will get back in touch with you after the 19th April, once teams have had a chance to enter.
+                    <p>
+                        A huge thank you must go out to all teams, players, referees, friends and supporters
+                        who helped make it a great day out. Special plaudits must to to Stirling for hosting
+                        a fantastic Ceilidh long into the evening to top off a fantastic day.
                     </p>
+                    <br>
+                    <p>Head over to our <a target="_blank" title="Follow Six Pack Touch on Instagram" alt="Six Pack Touch on Instagram" href="https://www.instagram.com/sixpacktouch/">Instagram Page</a> to see action shots from the day.
+                    </p>
+                    <br>
                 </div>
             </div>
-            <div class="col-md-8">
-                <img class="img-responsive" src="images/sts/edinburgh-sts.jpg">
+            <div class="col-md-6">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                  <div style="padding:8px;">
+                    <div style=" background:#F8F8F8; line-height:0; margin-top:40px; text-align:center; width:100%;">
+                      <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC);">
+                      </div>
+                    </div>
+                      <p style=" margin:8px 0 0 0; padding:0 4px;">
+                        <a href="https://www.instagram.com/p/BU8wISFA31T/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">First silverware of the year with a win at Stirling STS. Great tournament run by Stirling Touch! #scottishtouchseries #scottishtouch #sixpacktouch #sixpack #stirling #touchislife #sts #firstwinoftheseason</a>
+                      </p>
+                      <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Six Pack touch (@sixpacktouch) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-06-05T07:19:07+00:00">Jun 5, 2017 at 12:19am PDT</time>
+                      </p>
+                    </div>
+                  </blockquote>
+                  <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
             </div>
         </div>
         <div class="col-lg-12 text-center">
@@ -195,12 +243,12 @@
                     <h3 class="section-subheading text-muted">Click a marker to find our training and playing locations throughout Edinburgh.</h3>
                     <h3>Never miss a Six Pack moment, <a target="_blank" title="Add Six Pack Calendar to Google Calendar, iPhone, Android &amp; More" href="https://stanza.co/schedules/six_pack_2017">subscribe to our Calendar</a></h3>
                 </div>
-            </div>    
+            </div>
             <div id="map-wrapper">
                 <div id="map-canvas" class="mapping">
                 </div>
             </div>
-            
+
         </div>
         <br>
         <div class="container-fluid text-center">
@@ -234,40 +282,40 @@
                         <tr>
                             <th>Saturday 13th May 2017</th>
                             <th>Scottish Touch Series (STS) Round 1</th>
-                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="">-->EDINBURGH - TBC<!--</a>--></th>
-                            <th>Mixed, Men's &amp; Women's</th>
+                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="">-->EDINBURGH - Peffermill<!--</a>--></th>
+                            <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
                             <th>Saturday 3rd June 2017</th>
                             <th>Scottish Touch Series (STS) Round 2</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->STIRLING - TBC<!--</a>--></th>
-                            <th>Mixed, Men's &amp; Women's</th>
+                            <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
                             <th>Saturday 22nd July 2017</th>
                             <th>Scottish Touch Series (STS) Round 3</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->ABERDEEN - TBC<!--</a>--></th>
-                            <th>Mixed, Men's &amp; Women's</th>
+                            <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
                             <th>Saturday 26th August 2017</th>
                             <th>Scottish Touch Series (STS) Round 4</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->GLASGOW - TBC<!--</a>--></th>
-                            <th>Mixed, Men's &amp; Women's</th>
+                            <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
-                        </tr> 
+                        </tr>
                         <tr>
-                            <th>2018 to be confirmed...</th>
+                            <th>Winter Active Touch 2018 to be confirmed...</th>
                             <th>TBC</th>
                             <th class="hidden-xs hidden-sm">TBC</th>
                             <th>TBC</th>
                             <th>All</th>
-                        </tr> 
+                        </tr>
                     </tbody>
-                </table>          
+                </table>
             </div>
             <div class="col-lg-4" id="train-with-us">
                 <h2>Train with Us</h2>
@@ -449,7 +497,7 @@
                         </div>
                       </div>
                     </li>
-                </ul>       
+                </ul>
             </div>
         </div>
         <div class="col-lg-12 text-center">
@@ -457,8 +505,8 @@
         </div>
       </div>
     </section>
- 
-    
+
+
 
     <!-- ==============================================
       Commitee Section
@@ -514,13 +562,19 @@
                         <p class="text-muted">Karen McMichael</p>
                     </div>
                 </div>
+                <div class="col-sm-3 col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/8.jpg" class="img-responsive img-circle" alt="James Walkinshaw - Website">
+                        <p class="text-muted">James Walkinshaw</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- ==============================================
       Carousel Photos Section
-    ================================================ 
+    ================================================
     <section id="gallery">
         <div class="container-fluid text-center">
             <div class="col-xs-12">
@@ -561,7 +615,7 @@
             <div class="col-sm-4">
                 <a title="Website Design by Six Packer - James Walkinshaw" href="mailto:sixpacktouch@gmail.com?subject=Touch Rugby Query">Six Pack Web Design</a>
             </div>
-            
+
         </div>
     </footer>
 
