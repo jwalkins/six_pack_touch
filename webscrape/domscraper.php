@@ -1,52 +1,28 @@
 <?php
-$mixed = new DOMScraper();
-//example couldent think of a site with an example table
-$mixed->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/mixed/six-pack-stingrays/')->setSource();
 
-//all tables on page
-//echo '<table>'.$scraper->getInnerHTML('table').'</table>';
+//ETS Scrapers//
+$ets_mixed = new DOMScraper();
+$ets_mixed->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/mixed/six-pack-stingrays/')->setSource();
 
-//get only tables with id="some_table_id" or any attribute match eg class="somthing"
-//echo '<table class="table-responsive table table-condensed">'.$mixed_table->getInnerHTML('table','class=ladder').'</table>';
+$ets_mixed_stingrays_fixtures = new DOMScraper();
+$ets_mixed_stingrays_fixtures->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/mixed/six-pack-stingrays/')->setSource();
 
-$mixed_stingrays_fixtures = new DOMScraper();
-//example couldent think of a site with an example table
-$mixed_stingrays_fixtures->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/mixed/six-pack-stingrays/')->setSource();
+$ets_mixed_sharks_fixtures = new DOMScraper();
+$ets_mixed_sharks_fixtures->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/mixed/six-pack-sharks/')->setSource();
 
-$mixed_sharks_fixtures = new DOMScraper();
-//example couldent think of a site with an example table
-$mixed_sharks_fixtures->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/mixed/six-pack-sharks/')->setSource();
+$ets_womens = new DOMScraper();
+$ets_womens->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/womens/six-pack-swans/')->setSource();
 
-//all tables on page
-//echo '<table>'.$scraper->getInnerHTML('table').'</table>';
-
-//get only tables with id="some_table_id" or any attribute match eg class="somthing"
-//echo '<table class="table-responsive table table-condensed">'.$mixed_stingrays_fixtures->getInnerHTML('table','class=team draw').'</table>';
+$ets_mens = new DOMScraper();
+$ets_mens->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/mens/six-pack-scorpions/')->setSource();
 
 
-//SET TABLE CLASS HERE - SO YOU CAN EDIT CSS!
-$womens = new DOMScraper();
-//example couldent think of a site with an example table
-$womens->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/womens/six-pack-swans/')->setSource();
+//In2Touch Scrapers//
+$in2touch_mens_fixtures = new DOMScraper();
+$in2touch_mens_fixtures->setSite('http://in2touchworldwide.spawtz.com/External/Fixtures/TeamProfile.aspx?VenueId=121&LeagueId=937&SeasonId=294&DivisionId=0&TeamId=6281')->setSource();
 
-
-//all tables on page
-//echo '<table>'.$scraper->getInnerHTML('table').'</table>';
-
-//get only tables with id="some_table_id" or any attribute match eg class="somthing"
-//echo '<table class="table-responsive table table-condensed">'.$womens_table->getInnerHTML('table','class=ladder').'</table>';
-
-//SET TABLE CLASS HERE - SO YOU CAN EDIT CSS!
-$mens = new DOMScraper();
-//example couldent think of a site with an example table
-$mens->setSite('http://www.touchsuperleague.org.uk/edinburgh/draws-ladders/mens/six-pack-scorpions/')->setSource();
-
-//echo '<table>'.$scraper->getInnerHTML('table').'</table>';
-
-
-
-//get all tables contents but return only nodeValue/text
-//echo '<table>'.$scraper->getInnerHTML('table','sticky-enabled',true).'</table>';
+$in2touch_mixed_fixtures = new DOMScraper();
+$in2touch_mixed_fixtures->setSite('http://in2touchworldwide.spawtz.com/External/Fixtures/TeamProfile.aspx?VenueId=121&LeagueId=936&SeasonId=293&DivisionId=950&TeamId=6280')->setSource();
 
 
 /**

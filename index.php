@@ -113,25 +113,17 @@
     ================================================ -->
     <section id="fixtures-results">
       <div class="container">
-        <h2>Six Pack Touch Fixtures &amp; Results 2017</h2>
+        <h2 class="text-center">Six Pack Touch Fixtures &amp; Results 2017</h2>
         <!-- TO BE WORKED ON TO COLLAPSE ALL ETS MENS ETC TEAMS ONE BY ONE -->
-        <div class="col-sm-6">
-            <button type="button" class="ets-btn btn btn-info" data-toggle="collapse" data-target="#ets-collapse">
-                Show Edinburgh Touch Superleague Fixtures &amp; Results 2017
+        <div class="col-sm-12">
+            <button type="button" class="ets-btn btn btn-info text-center" data-toggle="collapse" data-target="#fixtures-collapse">
+                Show Six Pack Fixtures &amp; Results 2017
             </button>
-        </div>
-        <div id="ets-collapse" class="collapse">
-          <?php
-            include 'webscrape/webscrape.php'
-          ?>
-        </div>
-        <div class="col-sm-6">
-            <button type="button" class="in2touch-btn btn btn-info" data-toggle="collapse" data-target="#in2touch-collapse">
-                Show In2Touch Fixtures &amp; Results 2017
-            </button>
-        </div>
-        <div id="in2touch-collapse" class="collapse">
-
+            <div id="fixtures-collapse" class="collapse">
+              <?php
+                include 'webscrape/webscrape_v2.php'
+              ?>
+            </div>
         </div>
       </div>
     </section>
