@@ -115,7 +115,7 @@
       <div class="container">
         <h2 class="text-center">Six Pack Touch Fixtures &amp; Results 2017</h2>
         <!-- TO BE WORKED ON TO COLLAPSE ALL ETS MENS ETC TEAMS ONE BY ONE -->
-        <div class="col-sm-12">
+        <div class="col-sm-12 text-center">
             <button type="button" class="ets-btn btn btn-info text-center" data-toggle="collapse" data-target="#fixtures-collapse">
                 Show Six Pack Fixtures &amp; Results 2017
             </button>
@@ -126,6 +126,20 @@
             </div>
         </div>
       </div>
+    </section>
+
+    <!-- ==============================================
+      Edinburgh STS Charity Money Raised
+    ================================================ -->
+    <section id="sts">
+      <br>
+        <div class="container-fluid">
+            <div class="col-xs-12 text-center">
+              <h2>A HUGE thank you!</h2>
+                <h3>Thank you to all involved with the Edinburgh STS where we managed to raise a fantastic £520 for Marie Curie</h3>
+                <img class="text-center img-money" src="images/sts/edinburgh-sts-money-raised.png" class="img-responsive" alt="Edinburgh STS Money Raised">
+            </div>
+        </div>
     </section>
 
     <!-- ==============================================

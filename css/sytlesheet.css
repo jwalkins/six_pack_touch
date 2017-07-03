@@ -512,6 +512,11 @@ section#sts p {
   text-align: center;
 }
 
+.img-money {
+  height: 250px;
+  width: auto;
+}
+
 /* ==============================================
   4. Edinburgh STS END
 ================================================*/
@@ -861,7 +866,7 @@ section#find_us a:visited {
 
 /*Inside map text CSS*/
 .info_content p,
-.info_content a, {
+.info_content a {
   font-size: 18px;
   padding-bottom: 5px;
 }
