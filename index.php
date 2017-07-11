@@ -133,11 +133,11 @@
     ================================================ -->
     <section id="sts">
       <br>
-        <div class="container-fluid">
+        <div class="container">
             <div class="col-xs-12 text-center">
               <h2>A HUGE thank you!</h2>
                 <h3>Thank you to all involved with the Edinburgh STS where we managed to raise a fantastic £520 for Marie Curie</h3>
-                <img class="text-center img-money" src="images/sts/edinburgh-sts-money-raised.png" class="img-responsive" alt="Edinburgh STS Money Raised">
+                <img class="text-center img-responsive" src="images/sts/edinburgh-sts-money-raised.png" alt="Edinburgh STS Money Raised">
             </div>
         </div>
     </section>
