@@ -82,6 +82,9 @@
                     <li>
                         <a class="page-scroll" title="Our Six Pack committee members" href="#commitee">Committee</a>
                     </li>
+                    <li>
+                        <a title="Six Pack News" href="news.php">News</a>
+                    </li>
                     <!--<li>
                         <a class="page-scroll" title="Some actions shots" href="#gallery">Gallery</a>
                     </li>-->
@@ -111,22 +114,23 @@
     <!-- ==============================================
       Fixtures & Results Section
     ================================================ -->
+    <!-- TO BE WORKED ON TO COLLAPSE ALL ETS MENS ETC TEAMS ONE BY ONE
     <section id="fixtures-results">
       <div class="container">
         <h2 class="text-center">Six Pack Touch Fixtures &amp; Results 2017</h2>
-        <!-- TO BE WORKED ON TO COLLAPSE ALL ETS MENS ETC TEAMS ONE BY ONE -->
+
         <div class="col-sm-12 text-center">
             <button type="button" class="ets-btn btn btn-info text-center" data-toggle="collapse" data-target="#fixtures-collapse">
                 Show Six Pack Fixtures &amp; Results 2017
             </button>
             <div id="fixtures-collapse" class="collapse">
               <?php
-                include 'webscrape/webscrape_v2.php'
+                #include 'webscrape/webscrape_v2.php'
               ?>
             </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- ==============================================
       Edinburgh STS Charity Money Raised
