@@ -52,7 +52,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                <a class="navbar-brand page-scroll" href="#page-top" title="Back to Top of Page">
+                <a class="navbar-brand page-scroll" href="index.php#page-top" title="Back to Homepage">
                 <img src="images/site_logo.png" alt="site logo">
                 </a>
                 <div>
@@ -245,6 +245,57 @@
                 <h3>Thank you to all involved with the Edinburgh STS where we managed to raise a fantastic £520 for Marie Curie</h3>
                 <img class="img-responsive" src="images/sts/edinburgh-sts-money-raised.png" alt="Edinburgh STS Money Raised">
             </div>
+        </div>
+    </section>
+
+    <section id="sts">
+      <br>
+        <div class="container-fluid">
+            <div class="col-md-6 text-center">
+                <div>
+                    <h2>Six Pack Roosters come a close 2nd to Galaxy Scotland</h1>
+                    <p>Six Pack Roosters lost out in a thrilling drop off final to Galaxy Scotland at this year's Edinburgh STS.</p>
+                    <br>
+                    <p>The first of this year's STS tournaments was held in Edinburgh, hosted by Six Pack, at Peffermill Playing Fields.
+                    </p>
+                    <br>
+                    <p>
+                      The Cup win puts Roosters at the top of the STS table, with 2 tournaments to play.
+                      <br>
+                      The penultimate STS will be held in Aberdeen on 22nd July 2017,
+                      with Glasgow wrapping up the series on 26th August 2017.
+                    </p>
+                    <br>
+                    <p>
+                        A huge thank you must go out to all teams, players, referees, friends and supporters
+                        who helped make it a great day out. Special plaudits must to to Stirling for hosting
+                        a fantastic Ceilidh long into the evening to top off a fantastic day.
+                    </p>
+                    <br>
+                    <p>Head over to our <a target="_blank" title="Follow Six Pack Touch on Instagram" alt="Six Pack Touch on Instagram" href="https://www.instagram.com/sixpacktouch/">Instagram Page</a> to see action shots from the day.
+                    </p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                  <div style="padding:8px;">
+                    <div style=" background:#F8F8F8; line-height:0; margin-top:40px; text-align:center; width:100%;">
+                      <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC);">
+                      </div>
+                    </div>
+                      <p style=" margin:8px 0 0 0; padding:0 4px;">
+                        <a href="https://www.instagram.com/p/BUJrdiPAWfq/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">First silverware of the year with a win at Stirling STS. Great tournament run by Stirling Touch! #scottishtouchseries #scottishtouch #sixpacktouch #sixpack #stirling #touchislife #sts #firstwinoftheseason</a>
+                      </p>
+                      <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Six Pack touch (@sixpacktouch) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-06-05T07:19:07+00:00">Jun 5, 2017 at 12:19am PDT</time>
+                      </p>
+                    </div>
+                  </blockquote>
+                  <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+            </div>
+        </div>
+        <div class="col-lg-12 text-center">
+                <a class="page-scroll" href="#about" title="Down Find Us"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
         </div>
     </section>
 

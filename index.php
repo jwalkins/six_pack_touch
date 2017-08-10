@@ -133,28 +133,15 @@
     </section>-->
 
     <!-- ==============================================
-      Edinburgh STS Charity Money Raised
-    ================================================ -->
-    <section id="sts">
-      <br>
-        <div class="container">
-            <div class="col-xs-12 text-center">
-              <h2>A HUGE thank you!</h2>
-                <h3>Thank you to all involved with the Edinburgh STS where we managed to raise a fantastic £520 for Marie Curie</h3>
-                <img class="text-center img-responsive" src="images/sts/edinburgh-sts-money-raised.png" alt="Edinburgh STS Money Raised">
-            </div>
-        </div>
-    </section>
-
-    <!-- ==============================================
-      Edinburgh STS Section
+      Stirling STS Section
     ================================================ -->
     <section id="sts">
       <br>
         <div class="container-fluid">
+            <h1 class="text-center">News Snippets</h1>
             <div class="col-md-6 text-center">
                 <div>
-                    <h2>Six Pack Roosters win Stirling STS</h1>
+                    <h2>Six Pack Roosters win Stirling STS</h2>
                     <p>A huge effort from the Six Pack Roosters saw them emerge victorious at this year's Stirling STS.
                       <br>
                       A rain soaked day did not prevent an enthralling tournament,
@@ -202,10 +189,12 @@
                   </blockquote>
                   <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
             </div>
+            <h2>Read more news stories on <span><a title="Follow link to Six Pack Touch News Pages" href="news.php">our news page </a></span></h2>
         </div>
         <div class="col-lg-12 text-center">
                 <a class="page-scroll" href="#about" title="Down Find Us"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
         </div>
+
     </section>
 
     <!-- ==============================================
