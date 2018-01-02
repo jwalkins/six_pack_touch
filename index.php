@@ -126,7 +126,7 @@
             </div>
             <div class="row">
 
-              <div class="col-md-4 col-xs-6 news-item">
+              <div class="col-sm-4 col-xs-12 news-item">
                   <a href="#newsModal5" class="news-link" data-toggle="modal">
                       <div class="news-hover">
                           <div class="news-hover-content">
@@ -141,7 +141,7 @@
                   </div>
               </div>
 
-              <div class="col-md-4 col-xs-6 news-item">
+              <div class="col-sm-4 col-xs-12 news-item">
                   <a href="#newsModal4" class="news-link" data-toggle="modal">
                       <div class="news-hover">
                           <div class="news-hover-content">
@@ -156,7 +156,7 @@
                   </div>
               </div>
 
-              <div class="col-md-4 col-xs-6 news-item">
+              <div class="col-sm-4 col-xs-12 news-item">
                   <a href="#newsModal3" class="news-link" data-toggle="modal">
                       <div class="news-hover">
                           <div class="news-hover-content">
@@ -166,12 +166,12 @@
                       <img src="images/news/3.jpg" class="img-responsive" alt="News Item">
                   </a>
                   <div class="news-caption">
-                      <h4>Six Pack Representation at the first EFT Permiership Permit Competition</h4>
+                      <h4>Six Pack at the first EFT Permiership Permit</h4>
                       <p class="text-muted">EFT Permiership Permit Competition</p>
                   </div>
               </div>
 
-              <div class="col-md-4 col-xs-6 news-item">
+              <div class="col-sm-4 col-xs-12 news-item">
                   <a href="#newsModal2" class="news-link" data-toggle="modal">
                       <div class="news-hover">
                           <div class="news-hover-content">
@@ -186,7 +186,7 @@
                   </div>
               </div>
 
-              <div class="col-md-4 col-xs-6 news-item">
+              <div class="col-sm-4 col-xs-12 news-item">
                   <a href="#newsModal1" class="news-link" data-toggle="modal">
                       <div class="news-hover">
                           <div class="news-hover-content">
@@ -263,7 +263,9 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Find Us - Where we train &amp; play</h2>
                     <h3 class="section-subheading text-muted">Click a marker to find our training and playing locations throughout Edinburgh.</h3>
-                    <h3>Never miss a Six Pack moment, <a target="_blank" title="Add Six Pack Calendar to Google Calendar, iPhone, Android &amp; More" href="https://stanza.co/schedules/six_pack_2017">subscribe to our Calendar</a></h3>
+                    <!-- Calendar discontinued
+                      <h3>Never miss a Six Pack moment, <a target="_blank" title="Add Six Pack Calendar to Google Calendar, iPhone, Android &amp; More" href="https://stanza.co/schedules/six_pack_2017">subscribe to our Calendar</a></h3>
+                    -->
                 </div>
             </div>
             <div id="map-wrapper">
@@ -275,7 +277,7 @@
         <br>
         <div class="container-fluid text-center">
             <div class="col-lg-8">
-                <h2>Leagues &amp; Tournaments with Us: <a class="glyphicon glyphicon-calendar" title="Keep up to date with Six Pack, subscribe to our calendar" href="https://stanza.co/schedules/six_pack_2017"></a></h2>
+                <h2>Leagues &amp; Tournaments with Us</h2> <!-- Calendar discontinued <a class="glyphicon glyphicon-calendar" title="Keep up to date with Six Pack, subscribe to our calendar" href="https://stanza.co/schedules/six_pack_2017"></a>-->
                 <table class="table table-responsive">
                     <thead>
                         <tr>
@@ -288,50 +290,50 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th>Wednesdays from 26th April 2017 - 28th June 2017</th>
+                            <th>2018 TBC</th>
                             <th><a target="_blank" title="Edinburgh In2Touch Website" href="http://www.in2touch.com/worldwide/venue.php?venue=86&news_item=1344">In2Touch Edinburgh</a></th>
-                            <th class="hidden-xs hidden-sm"><a target="_blank" title="Open In2Touch Location in Google Maps" href="https://goo.gl/bHFLQx">Edinburgh Academicals Rugby Club</a></th>
+                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open In2Touch Location in Google Maps" href="https://goo.gl/bHFLQx">--></a>TBC</th>
                             <th>Mixed &amp; Men's</th>
                             <th title="Beginner / Intermediate">Beg / Int</th>
                         </tr>
                         <tr>
-                            <th>Mondays from 8th May 2017 - 21st August 2017</th>
+                            <th>2018 TBC</th>
                             <th><a target="_blank" title="Edinburgh Touch Superleague Website" href="http://www.touchsuperleague.org.uk/edinburgh/">Edinburgh Touch Superleague (ETS)</a></th>
-                            <th class="hidden-xs hidden-sm"><a target="_blank" title="Open ETS Location in Google Maps" href="https://goo.gl/F4SLQe">Peffermill Playing Fields</a></th>
+                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open ETS Location in Google Maps" href="https://goo.gl/F4SLQe">--></a>TBC</th>
                             <th>Mixed, Men's &amp; Women's</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
-                            <th>Saturday 13th May 2017</th>
+                            <th>2018 TBC</th>
                             <th>Scottish Touch Series (STS) Round 1</th>
-                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="">-->EDINBURGH - Peffermill<!--</a>--></th>
+                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="">-->EDINBURGH - TBC<!--</a>--></th>
                             <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
-                            <th>Saturday 3rd June 2017</th>
+                            <th>2018 TBC</th>
                             <th>Scottish Touch Series (STS) Round 2</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->STIRLING - TBC<!--</a>--></th>
                             <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
-                            <th>Saturday 22nd July 2017</th>
+                            <th>2018 TBC</th>
                             <th>Scottish Touch Series (STS) Round 3</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->ABERDEEN - TBC<!--</a>--></th>
                             <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
-                            <th>Saturday 26th August 2017</th>
+                            <th>2018 TBC</th>
                             <th>Scottish Touch Series (STS) Round 4</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->GLASGOW - TBC<!--</a>--></th>
                             <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
-                            <th>Winter Active Touch 2018 to be confirmed...</th>
-                            <th>TBC</th>
+                            <th>2018 TBC</th>
+                            <th>Winter Indoor Active Touch</th>
                             <th class="hidden-xs hidden-sm">TBC</th>
                             <th>TBC</th>
                             <th>All</th>
@@ -354,16 +356,16 @@
                     <tbody>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Summer">S</th>
-                            <th>Mondays from 27th March (for 6 weeks)</th>
-                            <th>6:30 - 8:30PM</th>
+                            <th>Summer 2018 TBC</th>
+                            <th>TBC</th>
                             <th><a target="_blank" title="Open Academy New Field Location in Google Maps" href="https://goo.gl/ZKGpaz">Inverleith Park (near Tennis Courts)</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Winter">W</th>
                             <th>Winter 2018 TBC</th>
-                            <th>6:30 - 8:30PM</th>
-                            <th><a target="_blank" title="Open Inverleith Park Location in Google Maps" href="https://goo.gl/rgBPlh">Edinburgh Academy New Field</a></th>
+                            <th>TBC</th>
+                            <th><a target="_blank" title="Open Mary Erskine location in Google Maps" href="https://goo.gl/maps/YtAVYsPeMbQ2">Mary Erskine Astro Field</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
                     </tbody>

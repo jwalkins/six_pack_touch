@@ -103,16 +103,16 @@
             <div class="intro-text">
                 <div class="intro-lead-in"><span class="intro">Welcome to Six Pack News</span></div>
                 <div><p><span class="intro">Scroll to read more about our adventures.</span></p>
-                <a class="page-scroll" href="#sts" title="Down to About Six Pack Touch"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                <a class="page-scroll" href="#eft-permits" title="EFT Premiership Permits News"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                 </div>
             </div>
         </div>
     </header>
 
     <!-- ==============================================
-      Aberdeen STS Section
+      EFTPP News
     ================================================ -->
-    <section id="sts">
+    <section id="eft-permits">
       <br>
         <div class="container-fluid">
           <div class="col-md-6">
@@ -123,7 +123,7 @@
                     </div>
                   </div>
                     <p style=" margin:8px 0 0 0; padding:0 4px;">
-                      <a href="https://www.instagram.com/p/BU8wISFA31T/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">First silverware of the year with a win at Stirling STS. Great tournament run by Stirling Touch! #scottishtouchseries #scottishtouch #sixpacktouch #sixpack #stirling #touchislife #sts #firstwinoftheseason</a>
+                      <a href="https://www.instagram.com/p/BWcl9W6gD0g/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">First silverware of the year with a win at Stirling STS. Great tournament run by Stirling Touch! #scottishtouchseries #scottishtouch #sixpacktouch #sixpack #stirling #touchislife #sts #firstwinoftheseason</a>
                     </p>
                     <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Six Pack touch (@sixpacktouch) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-06-05T07:19:07+00:00">Jun 5, 2017 at 12:19am PDT</time>
                     </p>
@@ -133,49 +133,35 @@
           </div>
             <div class="col-md-6 text-center">
                 <div>
-                    <h2>Six Pack Roosters win Aberdeen STS</h1>
-                    <p>A huge effort from the Six Pack Roosters saw them emerge victorious at this year's Stirling STS.
+                    <h2>Six Pack representation at the first EFT Premiership Permit Competition</h1>
+                    <p>A total of 17 Six Packers were selected to represent the 4 Scotland squads taking part in the 2017 EFT Premiership Permit competition, held at Peffermill, Edinburgh from 6th to 9th of July.</p>
                       <br>
-                      A rain soaked day did not prevent an enthralling tournament,
-                      Six Pack Roosters went unbeaten through their group and progressed to the Cup finals,
-                       where they beat Sparks 4 - 2 in the quarter final, Galaxy Scotland 4 - 1 in the semi final
-                       and lastly, beating Blue Jays 5 - 3 to lift the Cup.
+                      In the Men's Open, after a tough 4 days the Scotland Stags finshed 3rd, after beating the England Knights in the 3rd / 4th classification match.
+                      The England Crusaders took the crown, beating the Celtic Devils 5 - 4 in a thrilling back and forth final. The Scotland Kelpies beat the Irish Falcons 8 - 3 to finish 7th.
                     </p>
                     <br>
-                    <p>2 wins from 4 allowed the Six Pack Sharks to enter the Shield,
-                      where they battled their way through to the Shield final until finally
-                      being edged out 5 - 3 against a competitive Buffalos side.
+                    <p>In the Women's Open, the England Crusaders were victorious with a 5 - 1 victory over the England Knights. Scotland Kelpies narrowly missed out on the Final, losing 6 - 5 to the England Knights in the Final Qualifier. Scotland Stags lost out 9 - 5 to the England Royals in the Plate round 3.
+                    </p>
+                    <br>
+                    <p>Well done to all players, referees, physios and organisers on a fantastic 4 days of high quality touch.
                     </p>
                     <br>
                     <p>
-                      The Cup win puts Roosters at the top of the STS table, with 2 tournaments to play.
-                      <br>
-                      The penultimate STS will be held in Aberdeen on 22nd July 2017,
-                      with Glasgow wrapping up the series on 26th August 2017.
+                      A full breakdown of the results can be found on the <a href="https://eft.fixja.ninja/fixtures-results/premiership-permit/2017/" target="_blank">EFT Website</a>
                     </p>
-                    <br>
-                    <p>
-                        A huge thank you must go out to all teams, players, referees, friends and supporters
-                        who helped make it a great day out. Special plaudits must to to Stirling for hosting
-                        a fantastic Ceilidh long into the evening to top off a fantastic day.
-                    </p>
-                    <br>
-                    <p>Head over to our <a target="_blank" title="Follow Six Pack Touch on Instagram" alt="Six Pack Touch on Instagram" href="https://www.instagram.com/sixpacktouch/">Instagram Page</a> to see action shots from the day.
-                    </p>
-                    <br>
                 </div>
             </div>
 
         </div>
         <div class="col-lg-12 text-center">
-                <a class="page-scroll" href="#about" title="Down Find Us"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                <a class="page-scroll" href="#sts-stirling" title="Stirling STS"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
         </div>
     </section>
 
     <!-- ==============================================
       Stirling STS Section
     ================================================ -->
-    <section id="sts">
+    <section id="sts-stirling">
       <br>
         <div class="container-fluid">
             <div class="col-md-6 text-center">
@@ -230,14 +216,14 @@
             </div>
         </div>
         <div class="col-lg-12 text-center">
-                <a class="page-scroll" href="#about" title="Down Find Us"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                <a class="page-scroll" href="#sts-edinburgh-thank-you" title="Edinburgh STS"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
         </div>
     </section>
 
     <!-- ==============================================
       Edinburgh STS Charity Money Raised
     ================================================ -->
-    <section id="sts">
+    <section id="sts-edinburgh-thank-you">
       <br>
         <div class="container">
             <div class="col-xs-12 text-center">
@@ -246,9 +232,12 @@
                 <img class="img-responsive" src="images/sts/edinburgh-sts-money-raised.png" alt="Edinburgh STS Money Raised">
             </div>
         </div>
+        <div class="col-lg-12 text-center">
+                <a class="page-scroll" href="#sts-edinburgh" title="Edinburgh STS"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+        </div>
     </section>
 
-    <section id="sts">
+    <section id="sts-edinburgh">
       <br>
         <div class="container-fluid">
             <div class="col-md-6 text-center">
@@ -293,9 +282,6 @@
                   </blockquote>
                   <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
             </div>
-        </div>
-        <div class="col-lg-12 text-center">
-                <a class="page-scroll" href="#about" title="Down Find Us"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
         </div>
     </section>
 
