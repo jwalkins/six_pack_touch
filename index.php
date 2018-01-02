@@ -25,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
     <!-- Slick Carousel Images CDN
+          DISCONTINUED
     <link rel="stylesheet" type="text/css" href="css/slick.css">
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css">-->
 
@@ -661,10 +662,11 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMJffbv1ZCbnXlMBRbXLiQAVcwBvfSKAk&callback=initMap"></script>
     <script src="js/google_maps.js"></script>
 
-    <!-- Slick Carousel CDN -->
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <!-- Own Slick Implementation -->
-    <script src="js/slick_snippets.js"></script>
+    <!-- Slick Carousel CDN
+    DISCONTINUED
+    <script type="text/javascript" src="js/slick.min.js"></script>-->
+    <!-- Own Slick Implementation
+    <script src="js/slick_snippets.js"></script>-->
 
     <!-- Fort Awesome Glyphicons -->
     <script src="https://use.fortawesome.com/f07b9ec1.js"></script>
