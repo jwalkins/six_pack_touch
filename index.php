@@ -119,7 +119,7 @@
       News Section
     ================================================ -->
     <section id="news">
-        <div class="container-fluid text-center">
+        <div class="container text-center">
             <div class="row">
                 <h1>News</h1>
                 <h2 class="section-heading">What's going on at Six Pack.</h2>
@@ -175,7 +175,7 @@
                   <a href="#newsModal2" class="news-link" data-toggle="modal">
                       <div class="news-hover">
                           <div class="news-hover-content">
-                              <i class="fa fa-plusfa-2x"></i>
+                              <i class="fa fa-plus fa-2x"></i>
                           </div>
                       </div>
                       <img src="images/news/2.jpg" class="img-responsive" alt="News Item">
@@ -620,12 +620,6 @@
     <div class="news-modal modal fade" id="newsModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
@@ -655,12 +649,6 @@
     <div class="news-modal modal fade" id="newsModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
@@ -672,7 +660,7 @@
                                     Six Pack would like to thank all the other teams, players, Scottish Touch referees and organisers for putting together another fantastic year of tournaments.
                                     We look forward to trying to defend our title next year.
                                     <br><br>
-                                    The Six Pack Team</p>
+                                The Six Pack Team</p>
                                 <ul class="list-inline">
                                     <li>Date: August 2017</li>
                                     <li>Posted by: James Walkinshaw</li>
@@ -690,35 +678,34 @@
     <div class="news-modal modal fade" id="newsModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!--News Details Go Here -->
                                 <h2>Six Pack representation at the first EFT Premiership Permit Competition</h1>
-                                <p>A total of 17 Six Packers were selected to represent the 4 Scotland squads taking part in the 2017 EFT Premiership Permit competition, held at Peffermill, Edinburgh from 6th to 9th of July.</p>
-                                  <br>
+                                <p>
+                                  A total of 17 Six Packers were selected to represent the 4 Scotland squads taking part in the 2017 EFT Premiership Permit competition, held at Peffermill, Edinburgh from 6th to 9th of July.
+                                </p>
+                                <br>
+                                <p>
                                   In the Men's Open, after a tough 4 days the Scotland Stags finshed 3rd, after beating the England Knights in the 3rd / 4th classification match.
                                   The England Crusaders took the crown, beating the Celtic Devils 5 - 4 in a thrilling back and forth final. The Scotland Kelpies beat the Irish Falcons 8 - 3 to finish 7th.
                                 </p>
                                 <br>
-                                <p>In the Women's Open, the England Crusaders were victorious with a 5 - 1 victory over the England Knights. Scotland Kelpies narrowly missed out on the Final, losing 6 - 5 to the England Knights in the Final Qualifier. Scotland Stags lost out 9 - 5 to the England Royals in the Plate round 3.
+                                <p>
+                                  In the Women's Open, the England Crusaders were victorious with a 5 - 1 victory over the England Knights. Scotland Kelpies narrowly missed out on the Final, losing 6 - 5 to the England Knights in the Final Qualifier. Scotland Stags lost out 9 - 5 to the England Royals in the Plate round 3.
                                 </p>
                                 <br>
-                                <p>Well done to all players, referees, physios and organisers on a fantastic 4 days of high quality touch.
+                                <p>
+                                  Well done to all players, referees, physios and organisers on a fantastic 4 days of high quality touch.
                                 </p>
                                 <br>
                                 <p>
                                   A full breakdown of the results can be found on the <a href="https://eft.fixja.ninja/fixtures-results/premiership-permit/2017/" target="_blank">EFT Website</a>
                                 </p>
                                 <br>
-                                The Six Pack Team</p>
+                                <p>The Six Pack Team</p>
                                 <ul class="list-inline">
                                     <li>Date: July 2017</li>
                                     <li>Posted by: James Walkinshaw</li>
@@ -736,12 +723,6 @@
     <div class="news-modal modal fade" id="newsModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
@@ -777,7 +758,7 @@
                                   <p>Head over to our <a target="_blank" title="Follow Six Pack Touch on Instagram" alt="Six Pack Touch on Instagram" href="https://www.instagram.com/sixpacktouch/">Instagram Page</a> to see action shots from the day.
                                   </p>
                                 <br>
-                                The Six Pack Team</p>
+                                <p>The Six Pack Team</p>
                                 <ul class="list-inline">
                                     <li>Date: June 2017</li>
                                     <li>Posted by: James Walkinshaw</li>
@@ -795,12 +776,6 @@
     <div class="news-modal modal fade" id="newsModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
@@ -828,7 +803,7 @@
                                   <p>Head over to our <a target="_blank" title="Follow Six Pack Touch on Instagram" alt="Six Pack Touch on Instagram" href="https://www.instagram.com/sixpacktouch/">Instagram Page</a> to see action shots from the day.
                                   </p>
                                 <br>
-                                The Six Pack Team</p>
+                                <p>The Six Pack Team</p>
                                 <ul class="list-inline">
                                     <li>Date: May 2017</li>
                                     <li>Posted by: James Walkinshaw</li>

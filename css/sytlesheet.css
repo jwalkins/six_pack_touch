@@ -4,7 +4,7 @@
   1. Body Styles
   2. Navbar
   3. Back to top arrow
-  4. Header
+  4. News
   5. About
   6. Touch Worldwide
   7. Timeline
@@ -70,8 +70,8 @@ h3, h4, table {
   font-family: 'Josefin Sans', serif;
 }
 
-p {
-  font-size: 16px;
+p, ul, li {
+  font-size: 20px;
   font-family: 'Josefin Sans', serif;
 }
 
@@ -100,7 +100,7 @@ section#instagram span.glyphicon {
     font-size: 30px;
   }
 
-  p {
+  p, ul, li {
     font-size: 14px;
   }
 
@@ -426,7 +426,6 @@ header .intro-text .intro-heading {
     font-size: 60px;
     line-height: 100px;
   }
-
 }
 
 header p {
@@ -466,8 +465,6 @@ header span.glyphicon {
     padding: 10px 10px 7px 10px;
     line-height: 50px;
   }
-
-
 }
 /* ==============================================
   4. Header END
@@ -515,6 +512,150 @@ section#news p {
   text-align: center;
 }
 
+section#news .news-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+
+section#news .news-item .news-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+section#news .news-item .news-link .news-hover {
+  background: #0072b9;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+
+section#news .news-item .news-link .news-hover:hover {
+  opacity: 0.7;
+}
+
+section#news .news-item .news-link .news-hover .news-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+
+section#news .news-item .news-link .news-hover .news-hover-content i {
+  margin-top: -12px;
+}
+
+section#news .news-item .news-link .news-hover .news-hover-content h3,
+section#news .news-item .news-link .news-hover .news-hover-content h4 {
+  margin: 0;
+}
+section#news .news-item .news-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+section#news .news-item .news-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+section#news .news-item .news-caption p {
+  font-style: italic;
+  font-size: 16px;
+  margin: 0;
+}
+section#news * {
+  z-index: 2;
+}
+@media (min-width: 767px) {
+  section#news .news-item {
+    margin: 0 0 30px;
+  }
+}
+
+.news-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
+}
+.news-modal .modal-content {
+  border-radius: 0;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.news-modal .modal-content h2 {
+  margin-bottom: 15px;
+  font-size: 3em;
+}
+.news-modal .modal-content p {
+  margin-bottom: 30px;
+}
+.news-modal .modal-content p.item-intro {
+  margin: 20px 0 30px;
+  font-style: italic;
+  font-size: 16px;
+}
+.news-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.news-modal .modal-content img {
+  margin-bottom: 30px;
+}
+/* .news-modal .close-modal {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: transparent;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.news-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.news-modal .close-modal .lr {
+  height: 75px;
+  width: 1px;
+  margin-left: 35px;
+  background-color: #222222;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  /* IE 9
+  -webkit-transform: rotate(45deg);
+  /* Safari and Chrome
+  z-index: 1051;
+}
+.news-modal .close-modal .lr .rl {
+  height: 75px;
+  width: 1px;
+  background-color: #222222;
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  /* IE 9
+  -webkit-transform: rotate(90deg);
+  /* Safari and Chrome
+  z-index: 1052;
+} */
+.news-modal .modal-backdrop {
+  opacity: 0;
+  display: none;
+}
 
 /* ==============================================
   4. News END
@@ -550,7 +691,6 @@ section#about a:visited {
 section#about a.glyphicon {
   text-decoration: none;
 }
-
 
 /* ==============================================
   5. About END
@@ -829,7 +969,6 @@ section#contact span.glyphicon {
   color: #0072b9;
 }
 
-
 /* ==============================================
   8. Contact Us END
 ================================================*/
@@ -878,7 +1017,6 @@ section#find_us span.glyphicon {
   color: #0072b9;
 }
 
-
 /* ==============================================
   9. Find Us END
 ================================================*/
@@ -925,10 +1063,6 @@ section#commitee {
   margin-top: 0;
   font-size: 25px;
 }
-
-
-
-
 
 /* ==============================================
   10. Committee END
@@ -1009,152 +1143,3 @@ footer a:visited {
 /* ==============================================
   12. Footer END
 ================================================*/
-
-/* ==============================================
-  13. News Section
-================================================*/
-
-section#news .news-item {
-  margin: 0 0 15px;
-  right: 0;
-}
-
-section#news .news-item .news-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-section#news .news-item .news-link .news-hover {
-  background: #0072b9;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-}
-
-section#news .news-item .news-link .news-hover:hover {
-  opacity: 1;
-}
-
-section#news .news-item .news-link .news-hover .news-hover-content {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  font-size: 20px;
-  text-align: center;
-  top: 50%;
-  margin-top: -12px;
-  color: white;
-}
-
-section#news .news-item .news-link .news-hover .news-hover-content i {
-  margin-top: -12px;
-}
-
-section#news .news-item .news-link .news-hover .news-hover-content h3,
-section#news .news-item .news-link .news-hover .news-hover-content h4 {
-  margin: 0;
-}
-section#news .news-item .news-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: white;
-  text-align: center;
-  padding: 25px;
-}
-section#news .news-item .news-caption h4 {
-  text-transform: none;
-  margin: 0;
-}
-section#news .news-item .news-caption p {
-  font-style: italic;
-  font-size: 16px;
-  margin: 0;
-}
-section#news * {
-  z-index: 2;
-}
-@media (min-width: 767px) {
-  section#news .news-item {
-    margin: 0 0 30px;
-  }
-}
-
-.news-modal .modal-dialog {
-  margin: 0;
-  height: 100%;
-  width: auto;
-}
-.news-modal .modal-content {
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  padding: 100px 0;
-  text-align: center;
-}
-.news-modal .modal-content h2 {
-  margin-bottom: 15px;
-  font-size: 3em;
-}
-.news-modal .modal-content p {
-  margin-bottom: 30px;
-}
-.news-modal .modal-content p.item-intro {
-  margin: 20px 0 30px;
-  font-style: italic;
-  font-size: 16px;
-}
-.news-modal .modal-content ul.list-inline {
-  margin-bottom: 30px;
-  margin-top: 0;
-}
-.news-modal .modal-content img {
-  margin-bottom: 30px;
-}
-.news-modal .close-modal {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
-}
-.news-modal .close-modal:hover {
-  opacity: 0.3;
-}
-.news-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #222222;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  z-index: 1051;
-}
-.news-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #222222;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
-}
-.news-modal .modal-backdrop {
-  opacity: 0;
-  display: none;
-}
