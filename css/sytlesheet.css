@@ -189,10 +189,15 @@ hr {
   letter-spacing: 1px;
   color: white;
 }
-.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:hover {
+  background-color: #0072b9;
+  color: #FFFFFF;
+  border-radius: 3px;
+}
+
 .navbar-custom .nav li a:focus {
-  color: #0072b9;
-  outline: none;
+  background-color: #222222;
+  color: #FFFFFF;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
