@@ -196,9 +196,9 @@ hr {
 }
 
 .navbar-custom .nav li a:focus {
-  background-color: #222222;
   color: #FFFFFF;
 }
+
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
