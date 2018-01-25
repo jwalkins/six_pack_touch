@@ -1,103 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Edinburgh based Touch Rugby side with mixed, men's, and women's teams. Beginners to experienced touch players welcome! Six Pack compete in ETS, STS, In2Touch and Active Touch leagues throughout Edinburgh. ">
-    <meta name="keywords" content="Edinburgh Touch Rugby, Touch Rugby, Scottish Touch, Six Pack Touch Rugby">
-    <meta name="author" content="James Walkinshaw">
-
-    <title>Six Pack Touch Rugby | Edinburgh | Homepage</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Font Awesome Icons -->
-    <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
-
-
-    <!-- Theme CSS -->
-    <link rel="stylesheet" href="css/sytlesheet.css">
-
-    <!-- Google Fonts API -->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-
-    <!-- Slick Carousel Images CDN
-          DISCONTINUED
-    <link rel="stylesheet" type="text/css" href="css/slick.css">
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">-->
-
-</head>
-
-<body id="page-top" class="index">
-
-    <!-- ==============================================
-      Navigation Section
-    ================================================ -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="navbar-right">
-            <a class="hidden-xs" href="https://www.facebook.com/sixpacktouch/?fref=ts" target="_blank" title="Like Six Pack Touch on Facebook">
-                <span class="fa fa-facebook-square"></span>
-            </a>
-            <a class="hidden-xs" href="https://www.instagram.com/sixpacktouch/" target="_blank" title="Follow Six Pack Touch on Instagram">
-                <span class="fa fa-instagram"></span>
-            </a>
-        </div>
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle collapsed" id="collapse-button" data-toggle = "collapse" data-target = ".navbar-collapse" aria-expanded = "false">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                <a class="navbar-brand page-scroll" href="#page-top" title="Back to Top of Page">
-                <img src="images/site_logo.png" alt="site logo">
-                </a>
-                <div>
-                    <a class="fa fa-facebook-square navbar-brand visible-xs" href="https://www.facebook.com/sixpacktouch/?fref=ts" target="_blank"></a>
-                    <a class="fa fa-instagram navbar-brand visible-xs" href="https://www.instagram.com/sixpacktouch/" target="_blank"></a>
-                </div>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a class="page-scroll" title="Six Pack News" href="#news">News</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" title="Find out more about Touch Rugby and Six Pack "href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" title="Follow us on Instagram" href="#instagram">Instagram</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" title="Come and join us - find our training and playing areas" href="#find_us">Play Touch</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" title="Contact Six Pack" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll visible-lg visible-md" title="Six Pack Timeline" href="#six-pack-timeline">Timeline</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" title="Our Six Pack committee members" href="#commitee">Committee</a>
-                    </li>
-                    <!--<li>
-                        <a class="page-scroll" title="Some actions shots" href="#gallery">Gallery</a>
-                    </li>-->
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+<?php include 'includes/header.php' ?>
 
     <!-- ==============================================
       Header Section
@@ -108,7 +9,10 @@
                 <div class="intro-lead-in"><span class="intro">Touch Rugby in the heart of Edinburgh</span></div>
                 <div class="intro-heading"><span class="intro">Six Pack</span></div>
                 <!--<a href="#services" class="page-scroll btn btn-primary btn-lg">Find Out More</a>-->
-                <div><p><span class="intro">Join us for 2018 - scroll to find out more.</span></p>
+                <div class="intro-lead-in"><p><span class="intro">Training confirmed for Winter 2018 - Edinburgh Accies RFC, Raeburn Place. Fridays 6:30pm-8:00pm
+                          <br>Running from 2nd Febuary - 6th April.
+                        </span>
+                      </p>
                 <a class="page-scroll" href="#news" title="Down to Six Pack News"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                 </div>
             </div>
@@ -137,7 +41,7 @@
                   </a>
                   <div class="news-caption">
                       <h4>Six Pack Winter Training</h4>
-                      <p class="text-muted">First set of training sessions has now finished.</p>
+                      <p class="text-muted">Second round of winter training begins Friday 2nd Febuary.</p>
                   </div>
               </div>
 
@@ -543,26 +447,8 @@
             <div class="row">
                 <div class="col-sm-3 col-xs-4">
                     <div class="team-member">
-                        <img src="images/team/1.jpg" class="img-responsive img-circle" alt="Iain Gray - President">
-                        <p class="text-muted">Iain Gray</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-4">
-                    <div class="team-member">
-                        <img src="images/team/2.jpg" class="img-responsive img-circle" alt="Ross Taylor - Coach">
+                        <img src="images/team/2.jpg" class="img-responsive img-circle" alt="Ross Taylor - Head Coach">
                         <p class="text-muted">Ross Taylor</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-4">
-                    <div class="team-member">
-                        <img src="images/team/3.jpg" class="img-responsive img-circle" alt="Michael Bottom - Fixture Secretary">
-                        <p class="text-muted">Michael Bottom</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-4">
-                    <div class="team-member">
-                        <img src="images/team/4.jpg" class="img-responsive img-circle" alt="Hugh McMichael - Kit Secretary">
-                        <p class="text-muted">Hugh McMichael</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-xs-4">
@@ -579,300 +465,32 @@
                 </div>
                 <div class="col-sm-3 col-xs-4">
                     <div class="team-member">
-                        <img src="images/team/7.jpg" class="img-responsive img-circle" alt="Karen McMichael - Admin Secretary">
-                        <p class="text-muted">Karen McMichael</p>
+                        <img src="images/team/8.jpg" class="img-responsive img-circle" alt="James Walkinshaw - Website">
+                        <p class="text-muted">James Walkinshaw</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-xs-4">
                     <div class="team-member">
-                        <img src="images/team/8.jpg" class="img-responsive img-circle" alt="James Walkinshaw - Website">
-                        <p class="text-muted">James Walkinshaw</p>
+                        <img src="images/team/9.jpg" class="img-responsive img-circle" alt="Steph Tulloch - Social Beast">
+                        <p class="text-muted">Steph Tulloch</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/9.jpg" class="img-responsive img-circle" alt="Chris Ragg - Women's Coach &amp; Accounts">
+                        <p class="text-muted">Chris Ragg</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-4">
+                    <div class="team-member">
+                        <img src="images/team/9.jpg" class="img-responsive img-circle" alt="Rachel Howe - Events &amp; Planning">
+                        <p class="text-muted">Rachel Howe</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- ==============================================
-      Footer Section
-    ================================================ -->
-    <footer>
-        <div class="container-fluid text-center">
-            <div class="col-sm-4">
-                &copy; Six Pack Touch 2017
-            </div>
-            <div class="col-sm-4">
-                <div>Kit Provided By:<a title="Visit BLK Website" target="_blank" href="http://www.blksport.com/"><img src="images/kit_logo.png" alt="Six Pack Kit Provider BLK"></a></div>
-                <div></div>
-            </div>
-            <div class="col-sm-4">
-                <a title="Website Design by Six Packer - James Walkinshaw" href="mailto:sixpacktouch@gmail.com?subject=Touch Rugby Query">Six Pack Web Design</a>
-            </div>
+<?php include 'includes/news-modals.php' ?>
 
-        </div>
-    </footer>
-    <a href="#0" class="cd-top">Top</a>
-
-    <!-- ==============================================
-      News Popups Section
-    ================================================ -->
-    <!-- News Modal 5 -->
-    <div class="news-modal modal fade" id="newsModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!--News Details Go Here -->
-                                <h2>Six Pack Training</h2>
-                                <p>The first set of winter training sessions has now finished.
-                                  Watch this space to find our where and when the next set will be held.
-                                    <br>
-                                    <br>
-                                    The Six Pack Team
-                                </p>
-                                <ul class="list-inline">
-                                    <li>Date: January 2018</li>
-                                    <li>Posted by: James Walkinshaw</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- News Modal 4 -->
-    <div class="news-modal modal fade" id="newsModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!--News Details Go Here -->
-                                <h2>Six Pack Roosters win final STS</h2>
-                                <p>The final STS event of this year took us to Glasgow, where Six Pack Roosters emerged victorious, the 3rd win in a row and taking it too 3/4 wins this year.
-                                    This meant Six Pack Roosters were crowned STS Champions for the 2017 Season, a fantastic effort by all players across all 4 tournaments.
-                                    Six Pack would like to thank all the other teams, players, Scottish Touch referees and organisers for putting together another fantastic year of tournaments.
-                                    We look forward to trying to defend our title next year.
-                                    <br><br>
-                                The Six Pack Team</p>
-                                <ul class="list-inline">
-                                    <li>Date: August 2017</li>
-                                    <li>Posted by: James Walkinshaw</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- News Modal 3 -->
-    <div class="news-modal modal fade" id="newsModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!--News Details Go Here -->
-                                <h2>Six Pack representation at the first EFT Premiership Permit Competition</h1>
-                                <p>
-                                  A total of 17 Six Packers were selected to represent the 4 Scotland squads taking part in the 2017 EFT Premiership Permit competition, held at Peffermill, Edinburgh from 6th to 9th of July.
-                                </p>
-                                <br>
-                                <p>
-                                  In the Men's Open, after a tough 4 days the Scotland Stags finshed 3rd, after beating the England Knights in the 3rd / 4th classification match.
-                                  The England Crusaders took the crown, beating the Celtic Devils 5 - 4 in a thrilling back and forth final. The Scotland Kelpies beat the Irish Falcons 8 - 3 to finish 7th.
-                                </p>
-                                <br>
-                                <p>
-                                  In the Women's Open, the England Crusaders were victorious with a 5 - 1 victory over the England Knights. Scotland Kelpies narrowly missed out on the Final, losing 6 - 5 to the England Knights in the Final Qualifier. Scotland Stags lost out 9 - 5 to the England Royals in the Plate round 3.
-                                </p>
-                                <br>
-                                <p>
-                                  Well done to all players, referees, physios and organisers on a fantastic 4 days of high quality touch.
-                                </p>
-                                <br>
-                                <p>
-                                  A full breakdown of the results can be found on the <a href="https://eft.fixja.ninja/fixtures-results/premiership-permit/2017/" target="_blank">EFT Website</a>
-                                </p>
-                                <br>
-                                <p>The Six Pack Team</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2017</li>
-                                    <li>Posted by: James Walkinshaw</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- News Modal 2 -->
-    <div class="news-modal modal fade" id="newsModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!--News Details Go Here -->
-                                <h2>Six Pack Roosters Win Stirling STS</h1>
-                                  <p>A huge effort from the Six Pack Roosters saw them emerge victorious at this year's Stirling STS.
-                                    <br>
-                                    A rain soaked day did not prevent an enthralling tournament,
-                                    Six Pack Roosters went unbeaten through their group and progressed to the Cup finals,
-                                     where they beat Sparks 4 - 2 in the quarter final, Galaxy Scotland 4 - 1 in the semi final
-                                     and lastly, beating Blue Jays 5 - 3 to lift the Cup.
-                                  </p>
-                                  <br>
-                                  <p>2 wins from 4 allowed the Six Pack Sharks to enter the Shield,
-                                    where they battled their way through to the Shield final until finally
-                                    being edged out 5 - 3 against a competitive Buffalos side.
-                                  </p>
-                                  <br>
-                                  <p>
-                                    The Cup win puts Roosters at the top of the STS table, with 2 tournaments to play.
-                                    <br>
-                                    The penultimate STS will be held in Aberdeen on 22nd July 2017,
-                                    with Glasgow wrapping up the series on 26th August 2017.
-                                  </p>
-                                  <br>
-                                  <p>
-                                      A huge thank you must go out to all teams, players, referees, friends and supporters
-                                      who helped make it a great day out. Special plaudits must to to Stirling for hosting
-                                      a fantastic Ceilidh long into the evening to top off a fantastic day.
-                                  </p>
-                                  <br>
-                                  <p>Head over to our <a target="_blank" title="Follow Six Pack Touch on Instagram" alt="Six Pack Touch on Instagram" href="https://www.instagram.com/sixpacktouch/">Instagram Page</a> to see action shots from the day.
-                                  </p>
-                                <br>
-                                <p>The Six Pack Team</p>
-                                <ul class="list-inline">
-                                    <li>Date: June 2017</li>
-                                    <li>Posted by: James Walkinshaw</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- News Modal 1 -->
-    <div class="news-modal modal fade" id="newsModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!--News Details Go Here -->
-                                <h2>Six Pack Roosters come a close 2nd to Galaxy Scotland</h1>
-                                  <p>Six Pack Roosters lost out in a thrilling drop off final to Galaxy Scotland at this year's Edinburgh STS.</p>
-                                  <br>
-                                  <p>The first of this year's STS tournaments was held in Edinburgh, hosted by Six Pack, at Peffermill Playing Fields.
-                                  </p>
-                                  <br>
-                                  <p>
-                                    The Cup win puts Roosters at the top of the STS table, with 2 tournaments to play.
-                                    <br>
-                                    The penultimate STS will be held in Aberdeen on 22nd July 2017,
-                                    with Glasgow wrapping up the series on 26th August 2017.
-                                  </p>
-                                  <br>
-                                  <p>
-                                      A huge thank you must go out to all teams, players, referees, friends and supporters
-                                      who helped make it a great day out. Special plaudits must to to Stirling for hosting
-                                      a fantastic Ceilidh long into the evening to top off a fantastic day.
-                                  </p>
-                                  <br>
-                                  <p>Head over to our <a target="_blank" title="Follow Six Pack Touch on Instagram" alt="Six Pack Touch on Instagram" href="https://www.instagram.com/sixpacktouch/">Instagram Page</a> to see action shots from the day.
-                                  </p>
-                                <br>
-                                <p>The Six Pack Team</p>
-                                <ul class="list-inline">
-                                    <li>Date: May 2017</li>
-                                    <li>Posted by: James Walkinshaw</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- ==============================================
-      Scripts Section
-    ================================================ -->
-
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
-
-    <!-- JQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/custom_script.js"></script>
-
-    <!-- Google Map API & JavaScript -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMJffbv1ZCbnXlMBRbXLiQAVcwBvfSKAk&callback=initMap"></script>
-    <script src="js/google_maps.js"></script>
-
-    <!-- Slick Carousel CDN
-    DISCONTINUED
-    <script type="text/javascript" src="js/slick.min.js"></script>-->
-    <!-- Own Slick Implementation
-    <script src="js/slick_snippets.js"></script>-->
-
-    <!-- Fort Awesome Glyphicons -->
-    <script src="https://use.fortawesome.com/f07b9ec1.js"></script>
-
-    <!-- Google Analytics-->
-     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-93829327-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
-    <!-- LightWidget WIDGET -->
-    <script src="//lightwidget.com/widgets/lightwidget.js"></script>
-
-    <!-- Change ets-btn text on click -->
-    <script src="js/button-toggle.js"></script>
-
-</body>
-
-</html>
+<?php include 'includes/footer.php' ?>
