@@ -19,7 +19,7 @@
                                     socialise after a long week.
                                     <br>
                                     If you are new to Touch Rugby and want to try something new, we love welcoming new members into the Touch family. Drop us a quick message from our
-                                    <a data-dismiss="modal">contact</a> section and will be happy to help you out. Alternatively, just turn up to a training session and make yourself known to one of our commitee members.
+                                    contact section and will be happy to help you out. Alternatively, just turn up to a training session and make yourself known to one of our commitee members.
                                     <br>
                                     <br>
                                     The Six Pack Team

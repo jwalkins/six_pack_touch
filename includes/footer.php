@@ -75,21 +75,6 @@
 
     <!-- Change ets-btn text on click -->
     <script src="js/button-toggle.js"></script>
-
-    /*Script to dismiss modal and scroll href clicked in modal*/
-    <script type="text/javascript">
-      jQuery(function($) {
-        $('#newsModal5').on('hidden.bs.modal', function (e) {
-            $('html, body').animate({
-                scrollTop: $("#contact").offset().top
-            }, 2000);
-        })
-      });
-    </script>
-
-
-
-
 </body>
 
 </html>
