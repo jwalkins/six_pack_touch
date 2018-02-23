@@ -18,7 +18,7 @@
 
             // Multiple Markers
             var markers = [
-                ['The Mary Erskine School, Training Pitches', 55.953159, -3.252793],
+                /*['Edinburgh Academicals Rugby Club, Training Pitches', 55.959835, -3.217425],*/
                 ['Peffermill Playing Fields, Match Pitches', 55.931177, -3.151756],
                 ['Oriam, Training and Matches', 55.910433, -3.314858],
                 ['Inverleith Park, Training', 55.963448, -3.217228],
@@ -28,11 +28,11 @@
 
             // Info Window Content
             var infoWindowContent = [
-                ['<div class="info_content">' +
-                '<h3>The Mary Erskine School Astro Pitches - Winter Training</h3>' +
-                '<p>The Mary Erskine School pitches are floodlit astro pitches situated near Ravelston on the west side of Edinburgh. The home of our training during the dark Scottish winters.</p>' +
-                '<p><a title="Open Mary Erskine School in Google Maps" href="https://goo.gl/maps/G28oFStR9LJ2" target="_blank">LOCATION: Ravelston Dykes Rd, Edinburgh EH4 3NT</a></p>' +
-                '</div>'],
+                /*['<div class="info_content">' +
+                '<h3>Edinburgh Academicals Rugby Club - Winter Training</h3>' +
+                '<p>Edinburgh Academicals grass pitches located in the heart of Stockbridge, on the northern edge of the city centre. The home of our training during the dark Scottish winters.</p>' +
+                '<p><a title="Open Edinburgh Academicals Rugby Club in Google Maps" href="https://goo.gl/maps/DJVimEMyWt42" target="_blank">LOCATION: N Park Terrace, Edinburgh EH4 1HQ</a></p>' +
+                '</div>'],*/
                 ['<div class="info_content">' +
                 '<h3>Peffermill Playing Fields - ETS Touch League</h3>' +
                 '<p>University of Edinburgh Playing Fields. Home of the ETS Touch League played on Monday nights throughout the summer</p>' +
@@ -49,9 +49,9 @@
                 '<p><a title="Open Inverleith Park in Google Maps" href="https://goo.gl/rgBPlh" target="_blank">LOCATION: Arboretum Rd, Edinburgh EH3 5NZ</a></p>' +
                 '</div>'],
                  ['<div class="info_content">' +
-                '<h3>Edinburgh Academicals Rugby Club - In2Touch League</h3>' +
-                '<p>Edinburgh Accies Rugby Club. Home of the In2Touch Wednesday evening league that runs throughout summer.</p>' +
-                '<p><a title="Open Edinburgh Academicals in Google Maps" href="https://goo.gl/bHFLQx" target="_blank">LOCATION: N Park Terrace, Edinburgh EH4 1HQ</a></p>' +
+                '<h3>Edinburgh Academicals Rugby Club - Winter Training & In2Touch League</h3>' +
+                '<p>Edinburgh Academicals grass pitches located in the heart of Stockbridge, on the northern edge of the city centre. Home of our training during the dark Scottish winters and the In2Touch Wednesday evening league that runs throughout summer.</p>' +
+                '<p><a title="Open Edinburgh Academicals Rugby Club in Google Maps" href="https://goo.gl/bHFLQx" target="_blank">LOCATION: N Park Terrace, Edinburgh EH4 1HQ</a></p>' +
                 '</div>'],
                 //ADD REST OF LOCATION DESCRIPTIONS//
             ];
