@@ -167,7 +167,7 @@ hr {
 }
 
 .navbar-custom .navbar-toggle {
-  background-color: #0072b9;
+  background-color: transparent;
   border: none;
   text-transform: uppercase;
   color: white;
@@ -176,7 +176,7 @@ hr {
 
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #0072b9;
+  background-color: transparent;
 }
 
 .navbar-custom .navbar-toggle .icon-bar {

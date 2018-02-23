@@ -483,7 +483,7 @@
                 </div>
                 <div class="col-sm-3 col-xs-4">
                     <div class="team-member">
-                        <img src="images/team/9.jpg" class="img-responsive img-circle" alt="Rachel Howe - Events &amp; Planning">
+                        <img src="images/team/10.jpg" class="img-responsive img-circle" alt="Rachel Howe - Events &amp; Planning">
                         <p class="text-muted">Rachel Howe</p>
                     </div>
                 </div>
