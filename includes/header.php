@@ -21,7 +21,7 @@
 
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="css/sytlesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 
     <!-- Google Fonts API -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
