@@ -672,6 +672,17 @@ section#news * {
 
 section#about {
   padding: 25px 0;
+  background-image: url('../images/background_images/1.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+section#about div {
   background-color: #e8e8e3;
   overflow: auto;
 }
