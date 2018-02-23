@@ -267,9 +267,9 @@
                         </tr>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Winter">W</th>
-                            <th>Winter 2018 TBC</th>
-                            <th>TBC</th>
-                            <th><a target="_blank" title="Open Mary Erskine location in Google Maps" href="https://goo.gl/maps/YtAVYsPeMbQ2">Mary Erskine Astro Field</a></th>
+                            <th>Fridays - 2nd Feb to 6th April</th>
+                            <th>6:30 to 8:00</th>
+                            <th><a target="_blank" title="Open Edinburgh Academicals location in Google Maps" href="https://goo.gl/maps/94mEV8jmJPA2">Edinburgh Academicals Rugby Club</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
                     </tbody>
