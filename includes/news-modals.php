@@ -2,6 +2,132 @@
     <!-- ==============================================
       News Popups Section
     ================================================ -->
+    <!-- News Modal 6 -->
+    <div class="news-modal modal fade" id="newsModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!--News Details Go Here -->
+                                <h2>Six Pack Representation for Scottish Touch</h2>
+                                <p>6 Senior and 15 Open Six Packers have been selected for the inital Scottish Touch squads for thie year's 2018 European Touch competition
+                                    , held in Nottingham over the 19th, 20th, 21st &amp; 22nd of July 2018.
+                                    <br>
+                                    We wish all Six Packers and everyone else involved the best of luck throughout the following training months &amp; camps, leading to a successful campaign for Scottish Touch.</p>
+                                    <br><br>
+                                    <h3>Open List:</h3>
+                                    <table class="table table-condensed">
+                                      <thead>
+                                        <tr>
+                                          <th class="text-center">Mixed Open</th>
+                                          <th class="text-center">Women's Open</th>
+                                          <th class="text-center">Men's Open</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>Christy Tulloch</td>
+                                          <td>Grace Burton</td>
+                                          <td>Findlay Smith</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Hannah Smith</td>
+                                          <td></td>
+                                          <td>Ross Taylor</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Leia Glading</td>
+                                          <td></td>
+                                          <td>Rowan Chillingworth</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Steph Tulloch</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Calum Anderson</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Charlie Brett</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Chris Ragg</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Colin Anderson</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Dan Fitzgerald</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Marshall Macleod</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Michael Short</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                      </tbody>
+
+                                    </table>
+                                    <br> <br>
+                                    <h3>Senior's List:</h3>
+                                    <table class="table table-condensed">
+                                      <thead>
+                                        <tr>
+                                          <th class="text-center">Women's 27s</th>
+                                          <th class="text-center">Women's 35s</th>
+                                          <th class="text-center">Men's 45s</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>Frankie Alcock</td>
+                                          <td>Ailsa Falconer</td>
+                                          <td>Jonnie Ralfe</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Jane Crowley</td>
+                                          <td>Liesel Lippstreu-Holmes</td>
+                                          <td></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Clare Hammond</td>
+                                          <td></td>
+                                          <td></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <br>
+                                    <br>
+                                <p>The Six Pack Team</p>
+                                <ul class="list-inline">
+                                    <li>Date: February 2018</li>
+                                    <li>Posted by: James Walkinshaw</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- News Modal 5 -->
     <div class="news-modal modal fade" id="newsModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">

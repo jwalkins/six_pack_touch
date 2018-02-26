@@ -30,36 +30,54 @@
             </div>
             <div class="row">
 
-              <div class="col-sm-4 col-xs-12 news-item">
-                  <a href="#newsModal5" class="news-link" data-toggle="modal">
-                      <div class="news-hover">
-                          <div class="news-hover-content">
-                              <i class="fa fa-plus fa-2x"></i>
-                          </div>
-                      </div>
-                      <img src="images/news/5.jpg" class="img-responsive" alt="News Item">
-                  </a>
-                  <div class="news-caption">
-                      <h4>Six Pack Winter Training</h4>
-                      <p class="text-muted">Second round of winter training begins Friday 2nd Febuary.</p>
-                  </div>
-              </div>
+              <div class="row">
+                <div class="col-sm-4 col-xs-12 news-item">
+                    <a href="#newsModal6" class="news-link" data-toggle="modal">
+                        <div class="news-hover">
+                            <div class="news-hover-content">
+                                <i class="fa fa-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img src="images/news/6.jpg" class="img-responsive" alt="News Item">
+                    </a>
+                    <div class="news-caption">
+                        <h4>Scottish Touch Six Pack Representation</h4>
+                        <p class="text-muted">21 Six Packers selected in the inital squads for this year's 2018 Touch Euros.</p>
+                    </div>
+                </div>
 
-              <div class="col-sm-4 col-xs-12 news-item">
-                  <a href="#newsModal4" class="news-link" data-toggle="modal">
-                      <div class="news-hover">
-                          <div class="news-hover-content">
-                              <i class="fa fa-plus fa-2x"></i>
-                          </div>
-                      </div>
-                      <img src="images/news/4.jpg" class="img-responsive" alt="News Item">
-                  </a>
-                  <div class="news-caption">
-                      <h4>Glasgow STS 2017</h4>
-                      <p class="text-muted">Six Pack Roosters win STS Series 2017</p>
-                  </div>
-              </div>
+                <div class="col-sm-4 col-xs-12 news-item">
+                    <a href="#newsModal5" class="news-link" data-toggle="modal">
+                        <div class="news-hover">
+                            <div class="news-hover-content">
+                                <i class="fa fa-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img src="images/news/5.jpg" class="img-responsive" alt="News Item">
+                    </a>
+                    <div class="news-caption">
+                        <h4>Six Pack Winter Training</h4>
+                        <p class="text-muted">Second round of winter training begins Friday 2nd Febuary.</p>
+                    </div>
+                </div>
 
+                <div class="col-sm-4 col-xs-12 news-item">
+                    <a href="#newsModal4" class="news-link" data-toggle="modal">
+                        <div class="news-hover">
+                            <div class="news-hover-content">
+                                <i class="fa fa-plus fa-2x"></i>
+                            </div>
+                        </div>
+                        <img src="images/news/4.jpg" class="img-responsive" alt="News Item">
+                    </a>
+                    <div class="news-caption">
+                        <h4>Glasgow STS 2017</h4>
+                        <p class="text-muted">Six Pack Roosters win STS Series 2017</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
               <div class="col-sm-4 col-xs-12 news-item">
                   <a href="#newsModal3" class="news-link" data-toggle="modal">
                       <div class="news-hover">
@@ -104,11 +122,12 @@
                       <p class="text-muted">Six Pack Roosters come a close 2nd to Galaxy Scotland</p>
                   </div>
               </div>
+            </div>
 
-            </div>
-            <div class="col-lg-12 text-center">
+          </div>
+          <div class="col-lg-12 text-center">
             <a class="page-scroll" href="#about" title="Down to About Six Pack"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
-            </div>
+          </div>
         </div>
     </section>
 

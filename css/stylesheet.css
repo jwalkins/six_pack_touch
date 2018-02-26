@@ -504,10 +504,6 @@ section#news {
   overflow: auto;
 }
 
-section#news .container-fluid {
-  padding: 0;
-}
-
 section#news h2 {
   text-align: center;
 }
