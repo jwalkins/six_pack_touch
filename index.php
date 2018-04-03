@@ -9,10 +9,14 @@
                 <div class="intro-lead-in"><span class="intro">Touch Rugby in the heart of Edinburgh</span></div>
                 <div class="intro-heading"><span class="intro">Six Pack</span></div>
                 <!--<a href="#services" class="page-scroll btn btn-primary btn-lg">Find Out More</a>-->
-                <div class="intro-lead-in"><p><span class="intro">Training confirmed for Winter 2018 - Edinburgh Accies RFC, Raeburn Place. Fridays 6:30pm-8:00pm
-                          <br>Running from 2nd Febuary - 6th April.
-                        </span>
-                      </p>
+                <div class="intro-lead-in">
+                  <p>
+                    <span class="intro">
+                      Summer Training 2018 - Inverleith Park (by the tennis courts), Mondays, 6:30pm-8:00pm
+                    <br>
+                      Running from 9th-30th April
+                    </span>
+                  </p>
                 <a class="page-scroll" href="#news" title="Down to Six Pack News"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                 </div>
             </div>
@@ -56,8 +60,8 @@
                         <img src="images/news/5.jpg" class="img-responsive" alt="News Item">
                     </a>
                     <div class="news-caption">
-                        <h4>Six Pack Winter Training</h4>
-                        <p class="text-muted">Second round of winter training begins Friday 2nd Febuary.</p>
+                        <h4>Six Pack Summer Training</h4>
+                        <p class="text-muted">Summer training will begin on Monday 9th April and run for 5 weeks.</p>
                     </div>
                 </div>
 
@@ -220,9 +224,9 @@
                             <th title="Beginner / Intermediate">Beg / Int</th>
                         </tr>
                         <tr>
-                            <th>2018 TBC</th>
+                            <th>7th May - 13th August</th>
                             <th><a target="_blank" title="Edinburgh Touch Superleague Website" href="http://www.touchsuperleague.org.uk/edinburgh/">Edinburgh Touch Superleague (ETS)</a></th>
-                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open ETS Location in Google Maps" href="https://goo.gl/F4SLQe">--></a>TBC</th>
+                            <th class="hidden-xs hidden-sm"><a target="_blank" title="Open ETS Location in Google Maps" href="https://goo.gl/F4SLQe">Peffermill Playing Fields</a></th>
                             <th>Mixed, Men's &amp; Women's</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
@@ -279,14 +283,14 @@
                     <tbody>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Summer">S</th>
-                            <th>Summer 2018 TBC</th>
-                            <th>TBC</th>
-                            <th><a target="_blank" title="Open Academy New Field Location in Google Maps" href="https://goo.gl/ZKGpaz">Inverleith Park (near Tennis Courts)</a></th>
+                            <th>Mondays - 9th Apr to 30th Apr</th>
+                            <th>6:30 to 8:00</th>
+                            <th><a target="_blank" title="Open Inverleith Park Google Maps" href="https://goo.gl/maps/RVRm9b5jdnx">Inverleith Park (near Tennis Courts)</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Winter">W</th>
-                            <th>Fridays - 2nd Feb to 6th April</th>
+                            <th>Fridays - 2nd Feb to 6th Apr</th>
                             <th>6:30 to 8:00</th>
                             <th><a target="_blank" title="Open Edinburgh Academicals location in Google Maps" href="https://goo.gl/maps/94mEV8jmJPA2">Edinburgh Academicals Rugby Club</a></th>
                             <th>All Ages / Levels</th>

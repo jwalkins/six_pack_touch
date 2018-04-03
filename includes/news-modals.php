@@ -148,11 +148,10 @@
                             <div class="modal-body">
                                 <!--News Details Go Here -->
                                 <h2>Six Pack Training</h2>
-                                <p>The second round of Winter Training will be held as Edinburgh Accies Rugby Club,
-                                    based at Raeburn Place, Edinburgh, EH4 1HN. Running from 2nd Febuary to 6th April on Friday evenings, 6:30pm - 8:00pm.
+                                <p>Summer training will run on Inverleith Park (by the tennis courts)
+                                    on Mondays from 9th-30th April, 6:30pm - 8:00pm.
                                     <br>
-                                    The Accies bar will be open and available to all after each training session for a juice or something stronger, a perfect way to relax and
-                                    socialise after a long week.
+                                    These session will run up until the Start of the Edinburgh Touch Superleague (ETS), which begins on the 7th of May.
                                     <br>
                                     If you are new to Touch Rugby and want to try something new, we love welcoming new members into the Touch family. Drop us a quick message from our
                                     contact section and will be happy to help you out. Alternatively, just turn up to a training session and make yourself known to one of our commitee members.
@@ -161,7 +160,7 @@
                                     The Six Pack Team
                                 </p>
                                 <ul class="list-inline">
-                                    <li>Date: January 2018</li>
+                                    <li>Date: April 2018</li>
                                     <li>Posted by: James Walkinshaw</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
