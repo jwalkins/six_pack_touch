@@ -146,7 +146,7 @@
                 <p>Six Pack aims to be both a highly successful and social Touch Rugby Club, with many players going on to International honours throughout their Six Pack careers. We currently compete in 2 leagues during the summer months, Edinburgh Touch Superleague (ETS) Touch League on Monday evenings and the In2Touch League on Wednesday evenings. We also compete in the Scottish Touch Series (STS) Tournaments, which are held on 4 Saturdays from May - August. During the Winter months, we keep our fitness and friendships up with Edinburgh's Active Touch league and winter training sessions.</p>
                 <p>It's always important to relax though, and our social beast, Jonnie Ralfe is always on hand to organise a gathering. From Christmas parties to days out at the rugby sevens, don't be surprised if there's a drink or four after a tournament or at the end of a long season.</p>
                 <hr>
-                <h2>Our Teams - <a class="glyphicon glyphicon-calendar" title="Keep up to date with Six Pack, subscribe to our calendar" href="https://stanza.co/schedules/six_pack_2017" target="_blank"></a></h2>
+                <h2>Our Teams</h2>
                 <p>There's a team for everyone. Six Pack runs men's, women's and mixed teams throughout the year. Find your perfect team, regardless of whether you want an evening run around or test yourself against the best players Scottish Touch has to offer.</p>
                 <hr>
                 <h2>Join Us! - <a class="page-scroll glyphicon glyphicon-send" title="email Six Pack" href="#contact"></a></h2>
