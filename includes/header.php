@@ -10,7 +10,7 @@
     <meta name="keywords" content="Edinburgh Touch Rugby, Touch Rugby, Scottish Touch, Six Pack Touch Rugby">
     <meta name="author" content="James Walkinshaw">
 
-    <title>Six Pack Touch Rugby | Edinburgh | Homepage</title>
+    <title>Six Pack Touch Rugby | Edinburgh | Scotland | Homepage</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 

@@ -443,7 +443,7 @@
                           <h4 class="timeline-title">Our 10 Year Anniversary!</h4>
                         </div>
                         <div class="timeline-body">
-                          <p>Entering our 10th year and Six Pack is still going from strength to strength, with plaenty of leagues, tournaments and socials throughout the fantastic summer and long winter evenings. </p>
+                          <p>A fantastic season which saw Six Pack Roosters jet off to France, playing in the Gif-sur-Yvette tournament in May '17. It also saw Six Pack Roosters crowned <abbr title="Scottish Touch Series">STS</abbr> champions, winning 3/4 tournaments and finishing 2nd in the other. Six Pack Scorpions (men's) also won the <abbr title="Edinburgh Touch Superleague">ETS</abbr> league, with Six Pack Swans (women's) losing out in a close final 7-5 to Galaxy to claim 2nd place. Here's hoping 2018 can be just as successful both on and off the field.</p>
                         </div>
                       </div>
                     </li>
