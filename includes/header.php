@@ -69,7 +69,10 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a class="page-scroll" title="Six Pack News" href="#news">News</a>
+                        <a class="page-scroll" title="Come and join us - find our training and playing areas" href="#find_us">Play Touch</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" title="Contact Six Pack" href="#contact">Contact</a>
                     </li>
                     <li>
                         <a class="page-scroll" title="Find out more about Touch Rugby and Six Pack "href="#about">About</a>
@@ -78,13 +81,10 @@
                         <a class="page-scroll" title="Follow us on Instagram" href="#instagram">Instagram</a>
                     </li>
                     <li>
-                        <a class="page-scroll" title="Come and join us - find our training and playing areas" href="#find_us">Play Touch</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" title="Contact Six Pack" href="#contact">Contact</a>
-                    </li>
-                    <li>
                         <a class="page-scroll visible-lg visible-md" title="Six Pack Timeline" href="#six-pack-timeline">Timeline</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" title="Six Pack News" href="#news">News</a>
                     </li>
                     <li>
                         <a class="page-scroll" title="Our Six Pack committee members" href="#commitee">Committee</a>
