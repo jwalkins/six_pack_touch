@@ -22,7 +22,7 @@
                 ['Peffermill Playing Fields, Match Pitches', 55.931177, -3.151756],
                 ['Oriam, Training and Matches', 55.910433, -3.314858],
                 ['Inverleith Park, Training', 55.963448, -3.217228],
-                ['Edinburgh Academicals Rugby Club, Match Pitches', 55.960423, -3.216106]
+                ['Stewart Melville , training', 55.953851, -3.226014]
                 //ADD REST OF LOCATIONS//
             ];
 
@@ -49,9 +49,9 @@
                 '<p><a title="Open Inverleith Park in Google Maps" href="https://goo.gl/rgBPlh" target="_blank">LOCATION: Arboretum Rd, Edinburgh EH3 5NZ</a></p>' +
                 '</div>'],
                  ['<div class="info_content">' +
-                '<h3>Edinburgh Academicals Rugby Club - Winter Training & In2Touch League</h3>' +
-                '<p>Edinburgh Academicals grass pitches located in the heart of Stockbridge, on the northern edge of the city centre. Home of our training during the dark Scottish winters and the In2Touch Wednesday evening league that runs throughout summer.</p>' +
-                '<p><a title="Open Edinburgh Academicals Rugby Club in Google Maps" href="https://goo.gl/bHFLQx" target="_blank">LOCATION: N Park Terrace, Edinburgh EH4 1HQ</a></p>' +
+                '<h3>Stewart Melville College - Winter Training</h3>' +
+                '<p>Stewart Melvill astro pitches located in the West of Edinburgh. Home of our training during the dark Scottish winters.</p>' +
+                '<p><a title="Open Stewart Melville College in Google Maps" href="https://goo.gl/maps/79vUEcjKjRS2" target="_blank">LOCATION: Queensferry Road, Edinburgh EH4, 3NZ</a></p>' +
                 '</div>'],
                 //ADD REST OF LOCATION DESCRIPTIONS//
             ];
