@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Edinburgh based Touch Rugby side, Training Mondays 6:30pm - 8:00pm. Inverleith Park (by the tennis courts), Arboretum Roadd, Edinburgh EH3 5NZ. With mixed, men's and women's leagues. Beginners to experienced touch players welcome. Six Pack compete in Edinburgh Touch SSuperleague, Scottish Touch Superleague, In2Touch and Active Touch leagues throughout Edinburgh.">
+    <meta name="description" content="Edinburgh based Touch Rugby side, Training Mondays 7:30pm - 8:00pm. Stewart's Melville College, Queensferry Road, Edinburgh, EH4 5EZ. With mixed, men's and women's leagues. Beginners to experienced touch players welcome. Six Pack compete in Edinburgh Touch SSuperleague, Scottish Touch Superleague, In2Touch and Active Touch leagues throughout Edinburgh.">
     <meta name="keywords" content="Edinburgh Touch Rugby, Touch Rugby, Scottish Touch, Six Pack Touch Rugby">
     <meta name="author" content="James Walkinshaw">
 
