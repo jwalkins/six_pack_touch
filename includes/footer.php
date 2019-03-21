@@ -7,7 +7,7 @@
             &copy; Six Pack Touch 2017
         </div>
         <div class="col-sm-4">
-            <div>Kit Provided By:<a title="Visit BLK Website" target="_blank" href="http://www.blksport.com/"><img src="images/kit_logo.png" alt="Six Pack Kit Provider BLK"></a></div>
+            <div>Kit Provided By:<a title="Visit Gilbert Website" target="_blank" href="https://www.gilbertrugby.com/eng"><img src="images/kit_logo.png" alt="Six Pack Kit Provider Gilbert"></a></div>
             <div></div>
         </div>
         <div class="col-sm-4">
