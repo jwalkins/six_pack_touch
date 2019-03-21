@@ -20,9 +20,9 @@
             var markers = [
                 /*['Edinburgh Academicals Rugby Club, Training Pitches', 55.959835, -3.217425],*/
                 ['Peffermill Playing Fields, Match Pitches', 55.931177, -3.151756],
-                ['Oriam, Training and Matches', 55.910433, -3.314858],
+                /*['Oriam, Training and Matches', 55.910433, -3.314858],*/
                 ['Inverleith Park, Training', 55.963448, -3.217228],
-                ['Stewart Melville , training', 55.953851, -3.226014]
+                ['The Mary Erskine School , training', 55.952671, -3.252113]
                 //ADD REST OF LOCATIONS//
             ];
 
@@ -38,20 +38,20 @@
                 '<p>University of Edinburgh Playing Fields. Home of the ETS Touch League played on Monday nights throughout the summer</p>' +
                 '<p><a title="Open Peffermill Playing Fields in Google Maps" href="https://goo.gl/F4SLQe" target="_blank">LOCATION: Peffermill Road, Edinburgh EH16 5LL</a></p>' +
                 '</div>'],
-                ['<div class="info_content">' +
+                /*['<div class="info_content">' +
                 '<h3>Oriam - Active Touch League</h3>' +
                 '<p>Heriot Watt High Performance Centre. Home of the Active Touch League played on throughout the winter</p>' +
                 '<p><a title="Open Oriam Heriot Watt in Google Maps" href="https://goo.gl/yl72l0" target="_blank">LOCATION: Heriot Watt University, Edinburgh EH14 4AS</a></p>' +
-                '</div>'],
+                '</div>'],*/
                 ['<div class="info_content">' +
-                '<h3>Inverleith Park - Summer Training</h3>' +
-                '<p>Inverleith Park. Training location throughout the summer.</p>' +
+                '<h3>Inverleith Park - In2Touch League and Summer Training</h3>' +
+                '<p>Inverleith Park. Home of In2Touch Leagues on Wednesdays and Thursdays throughout summer as well as our training location in the run up to leagues starting.</p>' +
                 '<p><a title="Open Inverleith Park in Google Maps" href="https://goo.gl/rgBPlh" target="_blank">LOCATION: Arboretum Rd, Edinburgh EH3 5NZ</a></p>' +
                 '</div>'],
                  ['<div class="info_content">' +
-                '<h3>Stewart Melville College - Winter Training</h3>' +
-                '<p>Stewart Melvill astro pitches located in the West of Edinburgh. Home of our training during the dark Scottish winters.</p>' +
-                '<p><a title="Open Stewart Melville College in Google Maps" href="https://goo.gl/maps/79vUEcjKjRS2" target="_blank">LOCATION: Queensferry Road, Edinburgh EH4, 3NZ</a></p>' +
+                '<h3>The Mary Erskine School - Winter Training</h3>' +
+                '<p>The Mary Erskine School located in the West of Edinburgh. Home of our training during the dark Scottish winters.</p>' +
+                '<p><a title="Open The Mary Erskine School in Google Maps" href="https://goo.gl/maps/Yushi43uxRq" target="_blank">LOCATION: Ravelston Dykes Road, Edinburgh, EH4 3NT</a></p>' +
                 '</div>'],
                 //ADD REST OF LOCATION DESCRIPTIONS//
             ];
@@ -83,7 +83,7 @@
 
             // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
             var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-                this.setZoom(12);
+                this.setZoom(12.9);
                 google.maps.event.removeListener(boundsListener);
             });
 

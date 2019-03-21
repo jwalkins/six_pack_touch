@@ -376,12 +376,13 @@ hr {
 ================================================*/
 
 .intro {
-  background: rgba(34, 34, 34, 0.6);
+  background: rgba(255, 255, 255, 1);
   padding: 10px 10px 7px 10px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 header {
-  background-image: url('../images/background_images/1.jpeg');
+  background-image: url('../images/background_images/1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -668,7 +669,7 @@ section#news * {
 
 section#about {
   padding: 25px 0;
-  background-image: url('../images/background_images/1.jpeg');
+  background-image: url('../images/background_images/1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

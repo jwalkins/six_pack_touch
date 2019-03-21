@@ -12,7 +12,7 @@
                 <div class="intro-lead-in">
                   <p>
                     <span class="intro">
-                      Winter Training 2018 <br> Stewart's Melville College, Queensferry Road, EH4 3EZ.<br>Mondays 7:00-8:30pm<br>8<sup>th</sup> October to 10<sup>th</sup> December.
+                      Winter Training 2019 <br> The Mary Erskine School astro pitches, Ravelston Dykes Road, EH4 3NT.<br>Tuesdays 7:00-8:30pm<br>5<sup>th</sup> February to 26<sup>th</sup> March.
                     </span>
                   </p>
                 <a class="page-scroll" href="#news" title="Down to Six Pack News"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
@@ -25,7 +25,7 @@
       Find Us Section
     ================================================ -->
     <section id="find_us">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Find Us - Where we train &amp; play</h2>
@@ -98,13 +98,13 @@
                             <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
-                        <tr>
+                        <!--<tr>
                             <th>2018 TBC</th>
                             <th>Winter Indoor Active Touch</th>
                             <th class="hidden-xs hidden-sm">TBC</th>
                             <th>TBC</th>
                             <th>All</th>
-                        </tr>
+                        </tr>-->
                     </tbody>
                 </table>
             </div>
@@ -123,16 +123,16 @@
                     <tbody>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Winter">W</th>
-                            <th>8<sup>th</sup> Oct - 10<sup>th</sup> Dec</th>
+                            <th>5<sup>th</sup> Feb - 26<sup>th</sup> Mar 2019</th>
                             <th>7:00-8:30pm</th>
-                            <th><a target="_blank" title="Open Stewart's Melville College in Google Maps" href="https://goo.gl/maps/79vUEcjKjRS2">Stewart's Melville College Astro</a></th>
+                            <th><a target="_blank" title="Open The Mary Erskine School astro pitches in Google Maps" href="https://goo.gl/maps/QBNiB3G9hFq">The Mary Erskine School astro pitches</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Summer">S</th>
-                            <th>TBC</th>
-                            <th>-</th>
-                            <th>-</a></th>
+                            <th>From April 2019 (days TBC)</th>
+                            <th>TBC-</th>
+                            <th><a target="_blank" title="Open Inverleith Park in Google Maps" href="https://goo.gl/maps/KWkFQ5cqEQn">Inverleith Park (by the Tennis Courts)</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
                     </tbody>
