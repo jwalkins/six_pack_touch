@@ -4,14 +4,14 @@
 <footer>
     <div class="container-fluid text-center">
         <div class="col-sm-4">
-            &copy; Six Pack Touch 2017
+            &copy; Six Pack Touch <?php echo date("Y"); ?> <!-- PHP to get current year -->
         </div>
         <div class="col-sm-4">
             <div>Kit Provided By:<a title="Visit Gilbert Website" target="_blank" href="https://www.gilbertrugby.com/eng"><img src="images/kit_logo.png" alt="Six Pack Kit Provider Gilbert"></a></div>
             <div></div>
         </div>
         <div class="col-sm-4">
-            <a title="Website Design by Six Packer - James Walkinshaw" href="mailto:sixpacktouch@gmail.com?subject=Touch Rugby Query">Six Pack Web Design</a>
+            <a title="Website Design by Six Packer - James Walkinshaw" href="mailto:sixpacktouch@gmail.com?subject=Touch%20Rugby%20Query">Six Pack Web Design</a>
         </div>
 
     </div>

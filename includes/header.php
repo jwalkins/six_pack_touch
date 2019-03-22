@@ -75,6 +75,9 @@
                         <a class="page-scroll" title="Contact Six Pack" href="#contact">Contact</a>
                     </li>
                     <li>
+                        <a class="page-scroll" title="Shop Six Pack" href="#shop">Shop</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" title="Find out more about Touch Rugby and Six Pack "href="#about">About</a>
                     </li>
                     <li>

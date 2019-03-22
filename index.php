@@ -15,8 +15,20 @@
                       Winter Training 2019 <br> The Mary Erskine School astro pitches, Ravelston Dykes Road, EH4 3NT.<br>Tuesdays 7:00-8:30pm<br>5<sup>th</sup> February to 26<sup>th</sup> March.
                     </span>
                   </p>
-                <a class="page-scroll" href="#news" title="Down to Six Pack News"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
                 </div>
+            </div>
+            <div class="intro-text">
+              <div class="intro-lead-in"><span class="intro">Our kit shop is live!</span></div>
+              <div class="intro-lead-in">
+                <p>
+                  <span class="intro">
+                    Buy your new, personalised kit directly from our new supplier, <a title="Visit Six Pack shop" target="_blank" href="https://www.grays-int.com/clubshops/Default.aspx?PW=p9S8Pxb3D5">Gilbert</a>.
+                    <br>
+                    <a class="page-scroll" title="Scroll to kit section" target="_blank" href="#shop">See what's on offer in our kit section below.</a>
+                  </span>
+                </p>
+              <!--<a class="page-scroll" href="#find_us" title="Down to Six Pack Kit"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>-->
+              </div>
             </div>
         </div>
     </header>
@@ -188,6 +200,218 @@
             </div>
         </div>
     </section>
+    <!-- ==============================================
+      Shop Section
+    ================================================ -->
+    <section id="shop">
+      <div class="container text-center">
+        <h2 class="section-heading">Six Pack kit</h2>
+        <h3 class="section-subheading text-muted">Do you love stash?<br><br>
+            Thanks to our kit suppliers, Gilbert, you can pick up your personalised playing and leisure kit directly from our dedicated <a target="_blank" href="https://www.grays-int.com/clubshops/Default.aspx?PW=p9S8Pxb3D5" title="Visit Six Pack Gilbert shop">online shop</a>.
+            <br><br>Scroll through the pictures below to see what's on offer.
+        </h3>
+        <div id="shopPictures" class="carousel slide col-lg-offset-2" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#shopPictures" data-slide-to="0" class="active"></li>
+            <li data-target="#shopPictures" data-slide-to="1"></li>
+            <li data-target="#shopPictures" data-slide-to="2"></li>
+            <li data-target="#shopPictures" data-slide-to="3"></li>
+            <li data-target="#shopPictures" data-slide-to="4"></li>
+            <li data-target="#shopPictures" data-slide-to="5"></li>
+            <li data-target="#shopPictures" data-slide-to="6"></li>
+            <li data-target="#shopPictures" data-slide-to="7"></li>
+            <li data-target="#shopPictures" data-slide-to="8"></li>
+            <li data-target="#shopPictures" data-slide-to="9"></li>
+            <li data-target="#shopPictures" data-slide-to="10"></li>
+            <li data-target="#shopPictures" data-slide-to="11"></li>
+            <li data-target="#shopPictures" data-slide-to="12"></li>
+            <li data-target="#shopPictures" data-slide-to="13"></li>
+            <li data-target="#shopPictures" data-slide-to="14"></li>
+            <li data-target="#shopPictures" data-slide-to="15"></li>
+            <li data-target="#shopPictures" data-slide-to="16"></li>
+            <li data-target="#shopPictures" data-slide-to="17"></li>
+            <li data-target="#shopPictures" data-slide-to="18"></li>
+            <li data-target="#shopPictures" data-slide-to="19"></li>
+            <li data-target="#shopPictures" data-slide-to="20"></li>
+            <li data-target="#shopPictures" data-slide-to="21"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+
+            <div class="item active">
+              <img src="images/carousel/1.jpg" alt="Vapor Tee Shirt">
+              <div class="carousel-caption">
+                <h3>Vapor Tee Shirt</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/2.jpg" alt="Virtuo Match Short">
+              <div class="carousel-caption">
+                <h3>Virtuo Match Short</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/3.jpg" alt="Ladies' Saracen Match Short">
+              <div class="carousel-caption">
+                <h3>Ladies' Saracen Match Short</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/4.jpg" alt="Pro Warm Up Trouser">
+              <div class="carousel-caption">
+                <h3>Pro Warm Up Trouser</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/5.jpg" alt="Men's Vapour Leisure Hoodie">
+              <div class="carousel-caption">
+                <h3>Men's Vapour Leisure Hoodie</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/6.jpg" alt="Ladies' Vapour Leisure Hoodie">
+              <div class="carousel-caption">
+                <h3>Ladies' Vapour Leisure Hoodie</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/7.jpg" alt="Men's Pro Polo">
+              <div class="carousel-caption">
+                <h3>Men's Pro Polo</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/8.jpg" alt="Ladies' Pro Polo">
+              <div class="carousel-caption">
+                <h3>Ladies' Pro Polo</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/9.jpg" alt="Men's Synergie Trouser">
+              <div class="carousel-caption">
+                <h3>Men's Synergie Trouser</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/10.jpg" alt="Ladies' Synergie Trouser">
+              <div class="carousel-caption">
+                <h3>Ladies' Synergie Trouser</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/11.jpg" alt="Men's Vapour Sweat Pants">
+              <div class="carousel-caption">
+                <h3>Men's Vapour Sweat Pants</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/12.jpg" alt="Ladies' Vapour Sweat Pants">
+              <div class="carousel-caption">
+                <h3>Ladies' Vapour Sweat Pants</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/13.jpg" alt="Men's Leisure Short">
+              <div class="carousel-caption">
+                <h3>Men's Leisure Short</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/14.jpg" alt="Ladies' Leisure Short">
+              <div class="carousel-caption">
+                <h3>Ladies' Leisure Short</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/15.jpg" alt="Pro All Weather Jacket">
+              <div class="carousel-caption">
+                <h3>Pro All Weather Jacket</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/16.jpg" alt="Pro Active Quarter Zip">
+              <div class="carousel-caption">
+                <h3>Pro Active Quarter Zip</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/17.jpg" alt="Chicago">
+              <div class="carousel-caption">
+                <h3>Men's Pro Body Warmer</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/18.jpg" alt="Ladies' Pro Body Warmer">
+              <div class="carousel-caption">
+                <h3>Ladies' Pro Body Warmer</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/19.jpg" alt="Men's Blitz Jacket">
+              <div class="carousel-caption">
+                <h3>Men's Blitz Jacket</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/20.jpg" alt="Ladies' Blitz Jacket">
+              <div class="carousel-caption">
+                <h3>Ladies' Blitz Jacket</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/21.jpg" alt="Club Rucksack">
+              <div class="carousel-caption">
+                <h3>Club Rucksack</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="images/carousel/22.jpg" alt="Deluxe Holdall">
+              <div class="carousel-caption">
+                <h3>Deluxe Holdall</h3>
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#shopPictures" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#shopPictures" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <br>
+
+      </div>
+    </section>
+
     <!-- ==============================================
       About Section
     ================================================ -->
