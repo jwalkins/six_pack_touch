@@ -126,6 +126,13 @@ hr {
   color: #FFFFFF;
 }
 
+@media (min-width: 769px) and (max-width: 858px) {
+  .fa.fa-facebook-square,
+  .fa.fa-instagram {
+    font-size: 2.5rem;
+  }
+}
+
 .fa.fa-facebook-square {
   padding-right: 10px;
 }
@@ -145,7 +152,7 @@ hr {
 @media (max-width: 950px) {
   .fa.fa-instagram,
   .fa.fa-facebook-square {
-  padding-right: 20px;
+  padding-right: 10px;
   }
 }
 
@@ -241,7 +248,7 @@ hr {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1292px) {
 .navbar-custom .nav li a {
   font-size: 16px;
   }
@@ -288,7 +295,7 @@ hr {
 
 
 /*makes navbar image (ie site logo smaller for small screens*/
-@media (max-width: 766px) {
+@media (max-width: 1000px) {
     .navbar-header img {
       height: 40px;
       width: auto;
@@ -385,13 +392,14 @@ header {
   background-image: url('../images/background_images/1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  background-color: black
+  color: black;
 }
 header .intro-text {
   padding-top: 150px;
@@ -462,7 +470,7 @@ header span.glyphicon {
 @media only screen and (max-width: 1024px) {
     header{
         background-attachment: scroll;
-        background-size: auto, 100%;
+        background-size: cover;
     }
 }
 
@@ -699,7 +707,7 @@ section#shop a:visited {
   }
 }
 
-@media (min-width: 992px) and (max-width 1199px){
+@media (min-width: 992px) and (max-width: 1199px){
   .carousel {
     width: 70%;    /* Set slide height here */
   }
