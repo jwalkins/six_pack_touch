@@ -22,7 +22,7 @@
               <div class="intro-lead-in">
                 <p>
                   <span class="intro">
-                    Buy your new, personalised kit directly from our new supplier, <a title="Visit Six Pack shop" target="_blank" href="https://www.grays-int.com/clubshops/Default.aspx?PW=p9S8Pxb3D5">Gilbert</a>.
+                    Buy your new, personalised kit directly from our new supplier, <a title="Visit Six Pack shop" target="_blank" href="http://www.gilbertrugbyshop.co.uk/SixPackTouch">Gilbert</a>.
                     <br>
                     <a class="page-scroll" title="Scroll to kit section" target="_blank" href="#shop">See what's on offer in our kit section below.</a>
                   </span>
@@ -207,7 +207,7 @@
       <div class="container text-center">
         <h2 class="section-heading">Six Pack kit</h2>
         <h3 class="section-subheading text-muted">Do you love stash?<br><br>
-            Thanks to our kit suppliers, Gilbert, you can pick up your personalised playing and leisure kit directly from our dedicated <a target="_blank" href="https://www.grays-int.com/clubshops/Default.aspx?PW=p9S8Pxb3D5" title="Visit Six Pack Gilbert shop">online shop</a>.
+            Thanks to our kit suppliers, Gilbert, you can pick up your personalised playing and leisure kit directly from our dedicated <a target="_blank" href="http://www.gilbertrugbyshop.co.uk/SixPackTouch" title="Visit Six Pack Gilbert shop">online shop</a>.
             <br><br>Scroll through the pictures below to see what's on offer.
         </h3>
         <div id="shopPictures" class="carousel slide col-lg-offset-2" data-ride="carousel">
