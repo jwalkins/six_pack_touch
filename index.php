@@ -12,7 +12,7 @@
                 <div class="intro-lead-in">
                   <p>
                     <span class="intro">
-                      Winter Training 2019 <br> The Mary Erskine School astro pitches, Ravelston Dykes Road, EH4 3NT.<br>Tuesdays 7:00-8:30pm<br>5<sup>th</sup> February to 26<sup>th</sup> March.
+                      Summer Training 2019 <br> Inverleith Park (near the tennis courts), Arboretum Place.<br>Mondays 6:30-8:00pm<br>1<sup>st</sup> April to 6<sup>th</sup> May.
                     </span>
                   </p>
                 </div>
@@ -142,8 +142,8 @@
                         </tr>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Summer">S</th>
-                            <th>From April 2019 (days TBC)</th>
-                            <th>TBC-</th>
+                            <th>1<sup>st</sup> Apr - 6<sup>th</sup> May 2019</th>
+                            <th>6:30-8:00pm</th>
                             <th><a target="_blank" title="Open Inverleith Park in Google Maps" href="https://goo.gl/maps/KWkFQ5cqEQn">Inverleith Park (by the Tennis Courts)</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
