@@ -86,9 +86,9 @@
                     <li>
                         <a class="page-scroll visible-lg visible-md" title="Six Pack Timeline" href="#six-pack-timeline">Timeline</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a class="page-scroll" title="Six Pack News" href="#news">News</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a class="page-scroll" title="Our Six Pack committee members" href="#commitee">Committee</a>
                     </li>

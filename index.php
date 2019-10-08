@@ -5,31 +5,17 @@
     ================================================ -->
     <header>
         <div class="container-fluid" id="top">
-            <div class="intro-text">
-                <div class="intro-lead-in"><span class="intro">Touch Rugby in the heart of Edinburgh</span></div>
-                <div class="intro-heading"><span class="intro">Six Pack</span></div>
-                <!--<a href="#services" class="page-scroll btn btn-primary btn-lg">Find Out More</a>-->
-                <div class="intro-lead-in">
-                  <p>
-                    <span class="intro">
-                      Summer Training 2019 <br> Inverleith Park (near the tennis courts), Arboretum Place.<br>Mondays 6:30-8:00pm<br>1<sup>st</sup> April to 6<sup>th</sup> May.
-                    </span>
-                  </p>
-                </div>
+          <div class="intro-text">
+            <div class="intro-lead-in"><span class="intro">Touch Rugby in the heart of Edinburgh</span></div>
+            <div class="intro-heading"><span class="intro">Six Pack</span></div>
+            <div class="intro-lead-in">
+              <span class="intro">Winter Training 2019!&nbsp;
+                <br>Wednesdays 6:30-8:30pm&nbsp;
+                <br>9<sup>th</sup> October to 11<sup>th</sup> December 2019&nbsp;
+                <br><a target="_blank" title="Open The Mary Erskine School astro pitches in Google Maps" href="https://goo.gl/maps/QBNiB3G9hFq">The Mary Erskine School astro pitches, EH4 3NT.</a>
+              </span>
             </div>
-            <div class="intro-text">
-              <div class="intro-lead-in"><span class="intro">Our kit shop is live!</span></div>
-              <div class="intro-lead-in">
-                <p>
-                  <span class="intro">
-                    Buy your new, personalised kit directly from our new supplier, <a title="Visit Six Pack shop" target="_blank" href="http://www.gilbertrugbyshop.co.uk/SixPackTouch">Gilbert</a>.
-                    <br>
-                    <a class="page-scroll" title="Scroll to kit section" target="_blank" href="#shop">See what's on offer in our kit section below.</a>
-                  </span>
-                </p>
-              <!--<a class="page-scroll" href="#find_us" title="Down to Six Pack Kit"><span class="blink glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>-->
-              </div>
-            </div>
+          </div>
         </div>
     </header>
 
@@ -69,28 +55,28 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th>2019 TBC</th>
+                            <th>2020 TBC</th>
                             <th><a target="_blank" title="Edinburgh In2Touch Website" href="http://www.in2touch.com/worldwide/venue.php?venue=86&news_item=1344">In2Touch Edinburgh</a></th>
-                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open In2Touch Location in Google Maps" href="https://goo.gl/bHFLQx">--></a>TBC</th>
+                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open In2Touch Location in Google Maps" href="https://goo.gl/bHFLQx">--></a>North Edinburgh TBC</th>
                             <th>Mixed &amp; Men's</th>
                             <th title="Beginner / Intermediate">Beg / Int</th>
                         </tr>
                         <tr>
-                            <th>2019 TBC</th>
+                            <th>2020 TBC</th>
                             <th><a target="_blank" title="Edinburgh Touch Superleague Website" href="http://www.touchsuperleague.org.uk/edinburgh/">Edinburgh Touch Superleague (ETS)</a></th>
-                            <th class="hidden-xs hidden-sm"><a target="_blank" title="Open ETS Location in Google Maps" href="https://goo.gl/F4SLQe">Peffermill Playing Fields</a></th>
+                            <th class="hidden-xs hidden-sm"><a target="_blank" title="Open ETS Location in Google Maps" href="https://goo.gl/F4SLQe">Peffermill Playing Fields TBC</a></th>
                             <th>Mixed, Men's &amp; Women's</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
-                            <th>2019 TBC</th>
+                            <th>2020 TBC</th>
                             <th>Scottish Touch Series (STS) Round 1</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="">-->EDINBURGH - TBC<!--</a>--></th>
                             <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
                         </tr>
                         <tr>
-                            <th>2019 TBC</th>
+                            <th>2020 TBC</th>
                             <th>Scottish Touch Series (STS) Round 2</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->STIRLING - TBC<!--</a>--></th>
                             <th>Mixed</th>
@@ -99,13 +85,6 @@
                         <tr>
                             <th>2019 TBC</th>
                             <th>Scottish Touch Series (STS) Round 3</th>
-                            <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->ABERDEEN - TBC<!--</a>--></th>
-                            <th>Mixed</th>
-                            <th title="Intermediate / Advanced">Int / Adv</th>
-                        </tr>
-                        <tr>
-                            <th>2019 TBC</th>
-                            <th>Scottish Touch Series (STS) Round 4</th>
                             <th class="hidden-xs hidden-sm"><!--<a target="_blank" title="Open STS Location in Google Maps" href="#">-->GLASGOW - TBC<!--</a>--></th>
                             <th>Mixed</th>
                             <th title="Intermediate / Advanced">Int / Adv</th>
@@ -135,15 +114,15 @@
                     <tbody>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Winter">W</th>
-                            <th>5<sup>th</sup> Feb - 26<sup>th</sup> Mar 2019</th>
-                            <th>7:00-8:30pm</th>
+                            <th>9<sup>th</sup> Oct - 11<sup>th</sup> Dec 2019</th>
+                            <th>6:30-8:30pm</th>
                             <th><a target="_blank" title="Open The Mary Erskine School astro pitches in Google Maps" href="https://goo.gl/maps/QBNiB3G9hFq">The Mary Erskine School astro pitches</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
                         <tr>
                             <th class="hidden-xs hidden-sm" title="Summer">S</th>
-                            <th>1<sup>st</sup> Apr - 6<sup>th</sup> May 2019</th>
-                            <th>6:30-8:00pm</th>
+                            <th>TBC</th>
+                            <th>TBC</th>
                             <th><a target="_blank" title="Open Inverleith Park in Google Maps" href="https://goo.gl/maps/KWkFQ5cqEQn">Inverleith Park (by the Tennis Courts)</a></th>
                             <th>All Ages / Levels</th>
                         </tr>
@@ -419,18 +398,19 @@
         <div class="container text-center">
             <div>
                 <h1>About Six Pack Touch</h1>
+                <h2>Six Pack Highlights - <span class="page-scroll glyphicon glyphicon-envelope"></span></h2>
+                <p>At the end of a long season, Six Pack Swans were Edinburgh Touch Superleague winners beating Galaxy Scotland in the grand final, Six Pack Roosters came 2<sup>nd</sup> in the first ever European Club Championships which saw the best club teams in Europe battle it out over the 3<sup>rd</sup> and 4<sup>th</sup> of August in London. We will be back in 2020 on the hunt for more silverware.</p>
+                <hr>
                 <h2 class="section-heading">Work Hard, Play Hard.</h2>
                 <p>Six Pack aims to be both a highly successful and social Touch Rugby Club, with many players going on to International honours throughout their Six Pack careers. We currently compete in 2 leagues during the summer months, Edinburgh Touch Superleague (ETS) Touch League on Monday evenings and the In2Touch League on Wednesday evenings. We also compete in the Scottish Touch Series (STS) Tournaments, which are held on 4 Saturdays from May - August. During the Winter months, we keep our fitness and friendships up with Edinburgh's Active Touch league and winter training sessions.</p>
-                <p>It's always important to relax though, and our social beast, Jonnie Ralfe is always on hand to organise a gathering. From Christmas parties to days out at the rugby sevens, don't be surprised if there's a drink or four after a tournament or at the end of a long season.</p>
+                <p>It's always important to relax though, and our social team are always on hand to organise a gathering. From Christmas parties to days out at the rugby sevens, don't be surprised if there's a get together after a tournament or at the end of a long season.</p>
                 <hr>
                 <h2>Our Teams</h2>
-                <p>There's a team for everyone. Six Pack runs men's, women's and mixed teams throughout the year. Find your perfect team, regardless of whether you want an evening run around or test yourself against the best players Scottish Touch has to offer.</p>
+                <p>There's a team for everyone. Six Pack runs men's, women's and mixed teams throughout the year. Find your perfect team, regardless of whether you want an evening run around or test yourself against the best players Scottish and Europeam Touch has to offer.</p>
                 <hr>
                 <h2>Join Us! - <a class="page-scroll glyphicon glyphicon-send" title="email Six Pack" href="#contact"></a></h2>
                 <p>We love to welcome new members, if you want to play Touch Rugby in Edinburgh and fancy giving Six Pack a try, please do <a class="page-scroll" title="email Six Pack" href="#contact">get in contact</a> with one of our awesome committee members and they will answer any questions or queries you might have. Alternatively, just pop along to one of our <a title="Six Pack training times and locations" class="page-scroll" href="#train-with-us">training sessions</a>.</p>
-                <hr>
-                <h2>Six Pack Abroad - Our 10 Year Anniversary - <span class="page-scroll glyphicon glyphicon-plane"></span></h2>
-                <p>2017 brings with it our 10 year anniversary, as an extravagant celebration, Six Pack will be travelling to <a target="_blank" title="Six Pack at Gif-sur-Yvette" href="https://www.facebook.com/events/267397450359098/">Gif-sur-Yvette</a> hosted by <a target="_blank" title="Touch Roosters 91 Club Website" href="http://www.touchrugby91.com/index.php?lg=uk&lien=lien_1">Touch Roosters 91</a> on the <b>27th May 2017</b>. A fantastic way to kick off the summer of touch and we hope for more tournaments like this in the future.</p>
+
             </div>
             <hr>
     </section>
@@ -541,6 +521,21 @@
                         </div>
                       </div>
                     </li>
+                    <li>
+                      <div class="timeline-badge"><p>2019</p></div>
+                      <div class="timeline-panel">
+                        <div class="timeline-heading">
+                          <h4 class="timeline-title">A Touch World Cup year</h4>
+                        </div>
+                        <div class="timeline-body">
+                          <p>2019 saw the 9<sup>th</sup> Touch Rugby World Cup take place in Putajaya, Malaysia. Six Pack were wel represented across the Scotland squads with 9 mixed open, 4 men&#39;s and 1 Mixed 30s squad members. A fantastic tournament for Scotland Mixed Open saw then crowned Bronze medalists, following up from their Gold medal at the 2018 Euros.</p>
+                          <br>
+                          <p>Back in Scotland, 2019 saw the Six Pack Swans (women&#39;s) retain their Edinburgh Touch Superleague title with an excellent 9-3 win against Galaxy in the grand final, following on from an unbeaten regular season. The Six Pack Scorpions (men&#39;s) were Edinburgh Touch Superleague runners up to a well drilled Galaxy side, losing out 8-7 in the grand final.</p>
+                          <br>
+                          <p>This also saw the inaugural European Touch Club Championships, held in London, England. This two day competition put the top touch rugby clubs in Europe against eash other to be crowned continental Club Champions. After a hard fought two days, Six Pack Roosters (mixed) finished runners-up to London based Hot Custard to end the weekend ranked 2<sup>nd</sup> in Europe. A heroic effort by all Six Packers invloved.</p>
+                        </div>
+                      </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -575,6 +570,7 @@
     <!-- ==============================================
       News Section
     ================================================ -->
+    <!--
     <section id="news">
         <div class="container text-center">
             <div class="row">
@@ -679,7 +675,7 @@
 
           </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- ==============================================
       Commitee Section
@@ -701,20 +697,8 @@
                 </div>
                 <div class="col-sm-3 col-xs-4">
                     <div class="team-member">
-                        <img src="images/team/5.jpg" class="img-responsive img-circle" alt="Jonnie Ralfe - Social Beast">
-                        <p class="text-muted">Jonnie Ralfe</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-4">
-                    <div class="team-member">
                         <img src="images/team/6.jpg" class="img-responsive img-circle" alt="Ailsa Falconer - Accounts Secretary">
                         <p class="text-muted">Ailsa Falconer</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-4">
-                    <div class="team-member">
-                        <img src="images/team/8.jpg" class="img-responsive img-circle" alt="James Walkinshaw - Website">
-                        <p class="text-muted">James Walkinshaw</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-xs-4">
