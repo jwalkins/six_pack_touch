@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Edinburgh based Touch Rugby side, Training Tuesdays 7:00pm - 8:30pm. The Mary Erskine School astro pitches, Revelston Dykes Road, Edinburgh, EH4 3NT. With mixed, men's and women's leagues. Beginners to experienced touch players welcome. Six Pack compete in Edinburgh Touch Superleague, Scottish Touch Superleague, In2Touch and Active Touch leagues throughout Edinburgh.">
-    <meta name="keywords" content="Edinburgh Touch Rugby, Touch Rugby, Scottish Touch, Six Pack Touch Rugby">
+    <meta name="description" content="Edinburgh based Touch Rugby side, 2019 Winter Training, Wednesdays 6:30pm - 8:30pm, The Mary Erskine School astro pitches, Revelston Dykes Road, Edinburgh, EH4 3NT. With mixed, men's and women's leagues. Beginners to experienced touch players welcome. Six Pack compete in Edinburgh Touch Superleague, Scottish Touch Superleague, In2Touch and Active Touch leagues throughout Edinburgh.">
+    <meta name="keywords" content="Edinburgh Touch Rugby, Touch Rugby, Scottish Touch, Six Pack Touch Rugby, Touch Rugby Scotland, Touch Rugby Inverleith, In2Touch, Edinburgh Touch Superleague">
     <meta name="author" content="James Walkinshaw">
 
     <title>Six Pack Touch Rugby | Edinburgh | Scotland | Homepage</title>
